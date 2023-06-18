@@ -1,0 +1,22 @@
+[Files List]
+C:\Aldec\Active-HDL-Student-Edition\vlib\std/src/standard.vhd=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\std/src/textio.vhd=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/std_logic_1164.vhdl=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/std_logic_1164-body.vhdl=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/numeric_std.vhdl=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/numeric_std-body.vhdl=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/arith_p.vhd=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/arith_b.vhd=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/unsigned_p.vhd=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/unsigned_b.vhd=S
+C:\Users\Bash\Desktop\arch p2\p\arch\test/src/InstructionMemory.vhd=S
+C:\Users\Bash\Desktop\arch p2\p\arch\test/src/MUX2x1.vhd=S
+C:\Users\Bash\Desktop\arch p2\p\arch\test/src/DataMemory.vhd=S
+C:\Users\Bash\Desktop\arch p2\p\arch\test/src/MainControl.vhd=S
+C:\Users\Bash\Desktop\arch p2\p\arch\test/src/Extender.vhd=S
+C:\Users\Bash\Desktop\arch p2\p\arch\test/src/ALU.vhd=S
+C:\Users\Bash\Desktop\arch p2\p\arch\test/src/ALUControl.vhd=S
+C:\Users\Bash\Desktop\arch p2\p\arch\test/src/RegisterFile.vhd=S
+C:\Users\Bash\Desktop\arch p2\p\arch\test/src/PC.vhd=S
+C:\Users\Bash\Desktop\arch p2\p\arch\test/src/Adder4.vhd=S
+C:\Users\Bash\Desktop\arch p2\p\arch\test/src/processor.vhd=S

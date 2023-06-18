@@ -1,0 +1,13 @@
+"C:/Users/Bash/Desktop/arch p2/p/arch/test/src/test.vhd" VHDL test 1 0 0 -02
+"C:/Users/Bash/Desktop/arch p2/p/arch/test/src/PC.vhd" VHDL test 1 0 0 -02
+"C:/Users/Bash/Desktop/arch p2/p/arch/test/src/InstructionMemory.vhd" VHDL test 1 0 0 -02
+"C:/Users/Bash/Desktop/arch p2/p/arch/test/src/processor.vhd" VHDL test 1 0 0 -02
+"C:/Users/Bash/Desktop/arch p2/p/arch/test/src/Adder4.vhd" VHDL test 1 0 0 -02
+"C:/Users/Bash/Desktop/arch p2/p/arch/test/src/RegisterFile.vhd" VHDL test 1 0 0 -02
+"C:/Users/Bash/Desktop/arch p2/p/arch/test/src/ALU.vhd" VHDL test 1 0 0 -02
+"C:/Users/Bash/Desktop/arch p2/p/arch/test/src/ALUControl.vhd" VHDL test 1 0 0 -02
+"C:/Users/Bash/Desktop/arch p2/p/arch/test/src/DataMemory.vhd" VHDL test 1 0 0 -02
+"C:/Users/Bash/Desktop/arch p2/p/arch/test/src/MUX2x1.vhd" VHDL test 1 0 0 -02
+"C:/Users/Bash/Desktop/arch p2/p/arch/test/src/MainControl.vhd" VHDL test 1 0 0 -02
+"C:/Users/Bash/Desktop/arch p2/p/arch/test/src/Extender.vhd" VHDL test 1 0 0 -02
+. . 0 0 0

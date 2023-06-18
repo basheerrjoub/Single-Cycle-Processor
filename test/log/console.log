@@ -1,0 +1,471 @@
+acom -O3 -e 100 -work test -2002  $dsn/src/MainControl.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/MainControl.vhd
+# Compile Entity "MainControl"
+# Compile Architecture "MainControl" of Entity "MainControl"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work test -2002  $dsn/src/Extender.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/Extender.vhd
+# Compile Entity "Extender"
+# Compile Architecture "Behavioral" of Entity "Extender"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work test -2002  $dsn/src/Extender.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/Extender.vhd
+# Compile Entity "Extender"
+# Compile Architecture "Behavioral" of Entity "Extender"
+# A feature of VHDL 2008 has been detected. Use the -2008 argument of the vcom command.
+# Error: COMP96_0015: Extender.vhd : (15, 37): ';' expected.
+# Error: COMP96_0046: Extender.vhd : (15, 61): Sequential statement expected.
+# Error: COMP96_0019: Extender.vhd : (16, 3): Keyword 'end' expected.
+# Error: COMP96_0015: Extender.vhd : (18, 7): ';' expected.
+# Error: COMP96_0016: Extender.vhd : (18, 9): Design unit declaration expected.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work test -2002  $dsn/src/Extender.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/Extender.vhd
+# Compile Entity "Extender"
+# Compile Architecture "Behavioral" of Entity "Extender"
+# Warning: COMP96_0367: Extender.vhd : (16, 13): Improper array length (34). Expected length is 32.
+# Warning: COMP96_0367: Extender.vhd : (18, 13): Improper array length (34). Expected length is 32.
+# Warning: COMP96_0367: Extender.vhd : (21, 12): Improper array length (34). Expected length is 32.
+# Compile success 0 Errors 3 Warnings  Analysis time :  62.0 [ms]
+acom -O3 -e 100 -work test -2002  $dsn/src/Extender.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/Extender.vhd
+# Compile Entity "Extender"
+# Compile Architecture "Behavioral" of Entity "Extender"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work test -2002  $dsn/src/Extender.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/Extender.vhd
+# Compile Entity "Extender"
+# Compile Architecture "Behavioral" of Entity "Extender"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work test -2002  $dsn/src/Extender.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/Extender.vhd
+# Compile Entity "Extender"
+# Compile Architecture "Behavioral" of Entity "Extender"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work test -2002  $dsn/src/MUX2x1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/MUX2x1.vhd
+# Compile Entity "MUX2x1"
+# Error: COMP96_0078: MUX2x1.vhd : (4, 22): Unknown identifier "STD_LOGIC".
+# Error: COMP96_0064: MUX2x1.vhd : (4, 22): Unknown type.
+# Error: COMP96_0078: MUX2x1.vhd : (5, 20): Unknown identifier "STD_LOGIC_VECTOR".
+# Error: COMP96_0064: MUX2x1.vhd : (5, 20): Unknown type.
+# Error: COMP96_0078: MUX2x1.vhd : (6, 20): Unknown identifier "STD_LOGIC_VECTOR".
+# Error: COMP96_0064: MUX2x1.vhd : (6, 20): Unknown type.
+# Error: COMP96_0078: MUX2x1.vhd : (7, 21): Unknown identifier "STD_LOGIC_VECTOR".
+# Error: COMP96_0064: MUX2x1.vhd : (7, 21): Unknown type.
+# Compile Architecture "Behavioral" of Entity "MUX2x1"
+# Compile failure 8 Errors 0 Warnings  Analysis time :  79.0 [ms]
+acom -O3 -e 100 -work test -2002  $dsn/src/MUX2x1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/MUX2x1.vhd
+# Compile Entity "MUX2x1"
+# Compile Architecture "Behavioral" of Entity "MUX2x1"
+# Compile success 0 Errors 0 Warnings  Analysis time :  46.0 [ms]
+acom -O3 -e 100 -work test -2002  $dsn/src/processor.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/processor.vhd
+# Compile Entity "processor"
+# Compile Architecture "structure" of Entity "processor"
+# Error: COMP96_0019: processor.vhd : (91, 1): Keyword 'begin' expected.
+# Error: COMP96_0016: processor.vhd : (91, 8): Design unit declaration expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  63.0 [ms]
+acom -O3 -e 100 -work test -2002  $dsn/src/processor.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/processor.vhd
+# Compile Entity "processor"
+# Compile Architecture "structure" of Entity "processor"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -e 100 -work test -2002  $dsn/src/InstructionMemory.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/InstructionMemory.vhd
+# Compile Entity "Instruction_Memory"
+# Error: COMP96_0015: InstructionMemory.vhd : (9, 1): ')' expected.
+# Error: COMP96_0015: InstructionMemory.vhd : (9, 1): ';' expected.
+# Error: COMP96_0019: InstructionMemory.vhd : (9, 5): Keyword 'end' expected.
+# Compile Architecture "Behavioral" of Entity "Instruction_Memory"
+# Error: COMP96_0015: InstructionMemory.vhd : (20, 2): '=>' expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  16.0 [ms]
+asim -O5 +access +r +m+processor processor structure
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work test -2002  $dsn/src/InstructionMemory.vhd $dsn/src/Extender.vhd $dsn/src/ALUControl.vhd $dsn/src/processor.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/InstructionMemory.vhd
+# Compile Entity "Instruction_Memory"
+# Compile Architecture "Behavioral" of Entity "Instruction_Memory"
+# Error: COMP96_0015: InstructionMemory.vhd : (20, 2): '=>' expected.
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/Extender.vhd
+# Compile Entity "Extender"
+# Compile Architecture "Behavioral" of Entity "Extender"
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/ALUControl.vhd
+# Compile Entity "ALUControl"
+# Compile Architecture "Behavioral" of Entity "ALUControl"
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/processor.vhd
+# Compile Entity "processor"
+# Compile Architecture "structure" of Entity "processor"
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.1 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6641 kB (elbread=427 elab2=6074 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Bash\Desktop\arch p2\p\arch\test\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet24" has been made inactive.
+#  11:13 ?, C???I? 18 ????C? 2023
+#  Simulation has been initialized
+step -out
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/IM_block,  Process: line__26.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/RF_block,  Process: line__34.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/RF_block,  Process: line__34.
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work test -2002  $dsn/src/InstructionMemory.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/InstructionMemory.vhd
+# Compile Entity "Instruction_Memory"
+# Compile Architecture "Behavioral" of Entity "Instruction_Memory"
+# Error: COMP96_0015: InstructionMemory.vhd : (20, 2): '=>' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work test -2002  $dsn/src/InstructionMemory.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/InstructionMemory.vhd
+# Compile Entity "Instruction_Memory"
+# Compile Architecture "Behavioral" of Entity "Instruction_Memory"
+# Error: COMP96_0367: InstructionMemory.vhd : (16, 2): Improper array length (32). Expected length is 8.
+# Error: COMP96_0367: InstructionMemory.vhd : (17, 2): Improper array length (32). Expected length is 8.
+# Error: COMP96_0367: InstructionMemory.vhd : (18, 2): Improper array length (32). Expected length is 8.
+# Error: COMP96_0078: InstructionMemory.vhd : (24, 10): Unknown identifier "dir".
+# Error: COMP96_0348: InstructionMemory.vhd : (24, 10): Name on sensitivity list must denote a signal.
+# Error: COMP96_0367: InstructionMemory.vhd : (26, 10): Improper array length (8). Expected length is 32.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work test -2002  $dsn/src/InstructionMemory.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/InstructionMemory.vhd
+# Compile Entity "Instruction_Memory"
+# Compile Architecture "Behavioral" of Entity "Instruction_Memory"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work test -2002  $dsn/src/DataMemory.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/DataMemory.vhd
+# Compile Entity "DataMemory"
+# Compile Architecture "behav" of Entity "DataMemory"
+# Error: COMP96_0078: DataMemory.vhd : (24, 30): Unknown identifier "depth".
+# Error: COMP96_0078: DataMemory.vhd : (25, 19): Unknown identifier "width".
+# Error: COMP96_0133: DataMemory.vhd : (24, 30): Cannot find object declaration.
+# Error: COMP96_0094: DataMemory.vhd : (24, 30): Locally static expression is required in the range definition.
+# Error: COMP96_0081: DataMemory.vhd : (24, 25): Discrete type expected.
+# Error: COMP96_0248: DataMemory.vhd : (24, 25): Index constraint in the constrained array definition is invalid.
+# Error: COMP96_0078: DataMemory.vhd : (26, 17): Unknown identifier "ram_type".
+# Error: COMP96_0064: DataMemory.vhd : (26, 17): Unknown type.
+# Error: COMP96_0289: DataMemory.vhd : (35, 19): Prefix of index must be an array.
+# Error: COMP96_0077: DataMemory.vhd : (35, 19): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0289: DataMemory.vhd : (47, 7): Prefix of index must be an array.
+# Compile failure 11 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work test -2002  $dsn/src/DataMemory.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/DataMemory.vhd
+# Compile Entity "DataMemory"
+# Compile Architecture "behav" of Entity "DataMemory"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work test -2002  $dsn/src/processor.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/processor.vhd
+# Compile Entity "processor"
+# Compile Architecture "structure" of Entity "processor"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+asim -O5 +access +r +m+processor processor structure
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work test -2002  $dsn/src/InstructionMemory.vhd $dsn/src/DataMemory.vhd $dsn/src/processor.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/InstructionMemory.vhd
+# Compile Entity "Instruction_Memory"
+# Compile Architecture "Behavioral" of Entity "Instruction_Memory"
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/DataMemory.vhd
+# Compile Entity "DataMemory"
+# Compile Architecture "behav" of Entity "DataMemory"
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/processor.vhd
+# Compile Entity "processor"
+# Compile Architecture "structure" of Entity "processor"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 24313 kB (elbread=427 elab2=23746 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Bash\Desktop\arch p2\p\arch\test\src\wave.asdb
+#  11:23 ?, C???I? 18 ????C? 2023
+#  Simulation has been initialized
+step -over
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/IM_block,  Process: line__26.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/RF_block,  Process: line__34.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/RF_block,  Process: line__34.
+# VSIM: 23 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb'.
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work test -2002  $dsn/src/processor.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/processor.vhd
+# Compile Entity "processor"
+# Compile Architecture "structure" of Entity "processor"
+# Error: COMP96_0078: processor.vhd : (131, 52): Unknown identifier "regWr".
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+# ULM: Warning: ULM_0021 Architecture "structure" of entity "test.processor" is not up-to-date. Please recompile file "C:\Users\Bash\Desktop\arch p2\p\arch\test/src/processor.vhd".
+acom -O3 -e 100 -work test -2002  $dsn/src/processor.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/processor.vhd
+# Compile Entity "processor"
+# Compile Architecture "structure" of Entity "processor"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+asim -O5 +access +r +m+processor processor structure
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 24313 kB (elbread=427 elab2=23746 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Bash\Desktop\arch p2\p\arch\test\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet25" has been made inactive.
+#  11:25 ?, C???I? 18 ????C? 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb'.
+# Warning: WAVEFORM: Object matching /processor/regWr not found in C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/adder_in" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/adder_out" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/pc_out" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/busAT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/busBT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/busWT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/InstrT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/ExtOut" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUINB" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/MemMuxOut" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUOUT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/DMemOut" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUOPTemp" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/RegWrT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/EXTOPT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUSrcT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/MemRdT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/MemWrT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/WBdataT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/reset" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/Instr" has already been traced.
+# VSIM: 0 object(s) traced.
+# Stimuli: Info: The stimuli set "StimuliSet25" has been made active.
+
+run 100ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/IM_block,  Process: line__26.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/RF_block,  Process: line__34.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/RF_block,  Process: line__34.
+# KERNEL: stopped at time: 100 ns
+run 100ns
+# KERNEL: stopped at time: 200 ns
+run 100ns
+# KERNEL: stopped at time: 300 ns
+run 100ns
+# KERNEL: stopped at time: 400 ns
+acom -O3 -e 100 -work test -2002  $dsn/src/InstructionMemory.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/InstructionMemory.vhd
+# Compile Entity "Instruction_Memory"
+# Compile Architecture "Behavioral" of Entity "Instruction_Memory"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work test -2002  $dsn/src/processor.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/processor.vhd
+# Compile Entity "processor"
+# Compile Architecture "structure" of Entity "processor"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+asim -O5 +access +r +m+processor processor structure
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 24313 kB (elbread=427 elab2=23746 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Bash\Desktop\arch p2\p\arch\test\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet25" has been made inactive.
+#  11:32 ?, C???I? 18 ????C? 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb'.
+step -over
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/IM_block,  Process: line__26.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/RF_block,  Process: line__34.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/RF_block,  Process: line__34.
+acom -O3 -e 100 -work test -2002  $dsn/src/processor.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/processor.vhd
+# Compile Entity "processor"
+# Compile Architecture "structure" of Entity "processor"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+processor processor structure
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work test -2002  $dsn/src/processor.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/processor.vhd
+# Compile Entity "processor"
+# Compile Architecture "structure" of Entity "processor"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 24312 kB (elbread=427 elab2=23745 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Bash\Desktop\arch p2\p\arch\test\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet26" has been made inactive.
+#  11:34 ?, C???I? 18 ????C? 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb'.
+# Warning: WAVEFORM: Object matching /processor/Instr not found in C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb.
+run 100ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/IM_block,  Process: line__26.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/RF_block,  Process: line__34.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/RF_block,  Process: line__34.
+# KERNEL: stopped at time: 100 ns
+run 400ns
+# KERNEL: stopped at time: 500 ns
+endsim
+# VSIM: Simulation has finished.
+
+run 400ns
+# Simulation not initialized
+asim -O5 +access +r +m+processor processor structure
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 24312 kB (elbread=427 elab2=23745 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Bash\Desktop\arch p2\p\arch\test\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet27" has been made inactive.
+#  11:38 ?, C???I? 18 ????C? 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb'.
+run 500 ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/IM_block,  Process: line__26.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/RF_block,  Process: line__34.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/RF_block,  Process: line__34.
+# KERNEL: stopped at time: 500 ns
+endsim
+# VSIM: Simulation has finished.

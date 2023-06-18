@@ -1,0 +1,12 @@
+i<>.\src\test.vhd
+i<>.\src\PC.vhd
+i<>.\src\InstructionMemory.vhd
+i<>.\src\processor.vhd
+i<>.\src\4bitAdder.vhd
+i<>.\src\RegisterFile.vhd
+i<>.\src\ALU.vhd
+i<>.\src\ALUControl.vhd
+i<>.\src\DataMemory.vhd
+i<>.\src\MUX2x1.vhd
+i<>.\src\MainControl.vhd
+i<>.\src\Extender.vhd

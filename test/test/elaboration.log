@@ -1,0 +1,46 @@
+Active-HDL 13.0.376.8320 2023-06-19 00:08:49
+
+Elaboration top modules:
+Architecture                  structure(processor)
+
+
+-----------------------------------------------------------------------------------------------------
+Entity             | Architecture | Library | Info | Compiler Version          | Compilation Options
+-----------------------------------------------------------------------------------------------------
+processor          | structure    | test    |      | 13.0.376.8320 (Windows64) | -O3
+Adder4             | Behavioral   | test    |      | 13.0.376.8320 (Windows64) | -O3
+PC                 | Behavioral   | test    |      | 13.0.376.8320 (Windows64) | -O3
+Instruction_Memory | Behavioral   | test    |      | 13.0.376.8320 (Windows64) | -O3
+RegisterFile       | Behavioral   | test    |      | 13.0.376.8320 (Windows64) | -O3
+ALUControl         | Behavioral   | test    |      | 13.0.376.8320 (Windows64) | -O3
+ALU                | Behavioral   | test    |      | 13.0.376.8320 (Windows64) | -O3
+Extender           | Behavioral   | test    |      | 13.0.376.8320 (Windows64) | -O3
+MUX2x1             | Behavioral   | test    |      | 13.0.376.8320 (Windows64) | -O3
+MainControl        | MainControl  | test    |      | 13.0.376.8320 (Windows64) | -O3
+DataMemory         | behav        | test    |      | 13.0.376.8320 (Windows64) | -O3
+-----------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------
+VHDL Package                      | Library | Info | Compiler Version          | Compilation Options
+-----------------------------------------------------------------------------------------------------
+standard                          | std     |      |                           | <unavailable>
+TEXTIO                            | std     |      | 13.0.376.8320 (Windows64) |  -2019
+std_logic_1164                    | ieee    |      | 13.0.376.8320 (Windows64) |  -2008
+NUMERIC_STD                       | ieee    |      | 13.0.376.8320 (Windows64) |  -2008
+std_logic_arith                   | ieee    |      | 13.0.376.8320 (Windows64) | <unavailable>
+STD_LOGIC_UNSIGNED                | ieee    |      | 13.0.376.8320 (Windows64) | <unavailable>
+-----------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------
+Library                           | Comment
+-----------------------------------------------------------------------------------------------------
+ieee                              | Standard IEEE packages library
+std                               | Standard VHDL library
+test                              | None
+-----------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+processor processor structure
+
+
+The performance of simulation is reduced. Version Student Edition

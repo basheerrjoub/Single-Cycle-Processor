@@ -1,0 +1,56 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=test
+[Library]
+test=.\test\test.lib
+[$LibMap$]
+test=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+[IMPLEMENTATION]
+UCF=
+[Files]
+/test.vhd=-1
+/..\..\..\..\..\archp2\p\arch\test\src\untitled.asdb=-1
+/..\..\..\..\..\archp2\p\arch\test\src\untitled.awc=-1
+/PC.vhd=-1
+/InstructionMemory.vhd=-1
+/processor.vhd=-1
+/Adder4.vhd=-1
+/RegisterFile.vhd=-1
+/ALU.vhd=-1
+/ALUControl.vhd=-1
+/DataMemory.vhd=-1
+/MUX2x1.vhd=-1
+/MainControl.vhd=-1
+/Extender.vhd=-1
+[Files.Data]
+.\src\test.vhd=VHDL Source Code
+.\..\..\..\..\archp2\p\arch\test\src\untitled.asdb=Accelerated Waveform File
+.\..\..\..\..\archp2\p\arch\test\src\untitled.awc=Accelerated Waveform Configuration
+.\src\PC.vhd=VHDL Source Code
+.\src\InstructionMemory.vhd=VHDL Source Code
+.\src\processor.vhd=VHDL Source Code
+.\src\Adder4.vhd=VHDL Source Code
+.\src\RegisterFile.vhd=VHDL Source Code
+.\src\ALU.vhd=VHDL Source Code
+.\src\ALUControl.vhd=VHDL Source Code
+.\src\DataMemory.vhd=VHDL Source Code
+.\src\MUX2x1.vhd=VHDL Source Code
+.\src\MainControl.vhd=VHDL Source Code
+.\src\Extender.vhd=VHDL Source Code
+[HierarchyViewer]
+HierarchyInformation=decoder2x4|exp1|0 newand|exp1|0 testbenchfunction|io|0 three_state|when_else|0
+ShowHide=ShowTopLevel
+Selected=
