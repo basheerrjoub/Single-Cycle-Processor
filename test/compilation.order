@@ -10,3 +10,6 @@
 .\src\MUX2x1.vhd
 .\src\MainControl.vhd
 .\src\Extender.vhd
+.\src\MUX3x1.vhd
+.\src\BranchAdder.vhd
+.\src\PCControl.vhd

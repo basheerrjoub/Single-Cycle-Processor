@@ -1,29 +1,34 @@
-library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
+library ieee;
+use ieee.std_logic_1164.all;
 use ieee.std_logic_arith.all;
 use ieee.std_logic_unsigned.all;
 
 entity Instruction_Memory is
-    port(Address	: in std_logic_vector(31 downto 0);
-		Instr: out std_logic_vector(31 downto 0));
+    port(
+        Address: in std_logic_vector(31 downto 0);
+        Instr: out std_logic_vector(31 downto 0)
+    );
 end Instruction_Memory;
 
-architecture Behavioral of Instruction_Memory is
-	type mem is array(0 to 1024) of std_logic_vector(31 downto 0);
-	constant code : mem:=(
+architecture Behav of Instruction_Memory is
+    -- Defining a 32-bit word ROM array of size 1024
+    type ROM_Array is array (0 to 1023) of std_logic_vector(31 downto 0);
 
 
-	x"10020004",
-	x"10020004",
-	x"0000000A",
-
-	others=> x"00000000");
+    constant MEM: ROM_Array := (
+        X"1002000c",
+        X"10020004",
+        X"1002000c",
+        X"00000012",
+        X"00000003",
+        X"00000004",
+        X"00000005",
+		others => X"00000000"
+    );
 
 begin
-
-	process(Address)
-	begin
-		Instr<=code(conv_integer(unsigned(Address(15 downto 0))));
-	end process;
-
-end Behavioral;
+    process(Address)
+    begin
+        Instr <= MEM(conv_integer(Address(15 downto 2)));
+    end process;
+end Behav;

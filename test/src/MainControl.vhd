@@ -24,17 +24,17 @@ begin
 							when "00011" => controls <= "100000"; --CMP
 							when others   => controls <= "------";
 						end case;
-			when "10" => case Funct is --I Type
+			when "10" => case Funct is --I Types
 							when "00000" => controls <= "101000"; --ANDI
-							when "00001" => controls <= "101000"; --ADDI
-							when "00010" => controls <= "111101"; --LW
-							when "00011" => controls <= "011010"; --SW
+							when "00001" => controls <= "111000"; --ADDI
+							when "00010" => controls <= "101101"; --LW
+							when "00011" => controls <= "001010"; --SW
 							when "00100" => controls <= "010000"; --BEQ
-							when others   => controls <= "------";
+							when others  => controls <= "------";
 						end case;
 			when "01" => case Funct is --J Type
-							when "00000" => controls <= "010000"; --J
-							when "00001" => controls <= "010000"; --JAL
+							when "00000" => controls <= "000000"; --J
+							when "00001" => controls <= "000000"; --JAL
 							when others   => controls <= "------";
 						end case;
 			when "11" => case Funct is --S Type

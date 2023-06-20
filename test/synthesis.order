@@ -10,3 +10,6 @@ i<>.\src\DataMemory.vhd
 i<>.\src\MUX2x1.vhd
 i<>.\src\MainControl.vhd
 i<>.\src\Extender.vhd
+i<>.\src\MUX3x1.vhd
+i<>.\src\BranchAdder.vhd
+i<>.\src\PCControl.vhd

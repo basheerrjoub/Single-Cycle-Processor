@@ -35,6 +35,9 @@ UCF=
 /MUX2x1.vhd=-1
 /MainControl.vhd=-1
 /Extender.vhd=-1
+/MUX3x1.vhd=-1
+/BranchAdder.vhd=-1
+/PCControl.vhd=-1
 [Files.Data]
 .\src\test.vhd=VHDL Source Code
 .\..\..\..\..\archp2\p\arch\test\src\untitled.asdb=Accelerated Waveform File
@@ -50,7 +53,10 @@ UCF=
 .\src\MUX2x1.vhd=VHDL Source Code
 .\src\MainControl.vhd=VHDL Source Code
 .\src\Extender.vhd=VHDL Source Code
+.\src\MUX3x1.vhd=VHDL Source Code
+.\src\BranchAdder.vhd=VHDL Source Code
+.\src\PCControl.vhd=VHDL Source Code
 [HierarchyViewer]
-HierarchyInformation=decoder2x4|exp1|0 newand|exp1|0 testbenchfunction|io|0 three_state|when_else|0
+HierarchyInformation=adder4|Behavioral|0 instructionmemory|Behav|0 processor|structure|0
 ShowHide=ShowTopLevel
 Selected=

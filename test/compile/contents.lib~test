@@ -1,15 +1,17 @@
-146
+214
 ~E 1 "../src/4bitAdder.vhd" 6 Adder
 ~A 1 "../src/4bitAdder.vhd" 14 Behavioral
 ~E 1 "../src/Adder4.vhd" 6 Adder4
 ~A 1 "../src/Adder4.vhd" 13 Behavioral
-~E 1 "../src/ALU.vhd" 4 ALU
-~A 1 "../src/ALU.vhd" 12 Behavioral
+~E 1 "../src/ALU.vhd" 5 ALU
+~A 1 "../src/ALU.vhd" 13 Behavioral
 ~E 1 "../src/ALUControl.vhd" 4 ALUControl
 ~A 1 "../src/ALUControl.vhd" 10 Behavioral
 ~E 1 "../src/test.vhd" 3 And2
 ~A 1 "../src/test.vhd" 29 ex1
 ~A 1 "../src/test.vhd" 8 exp1
+~E 1 "../src/BranchAdder.vhd" 5 BranchAdder
+~A 1 "../src/BranchAdder.vhd" 13 behavioral
 ~E 1 "../src/test.vhd" 1 comb_function
 ~A 1 "../src/test.vhd" 6 expression
 ~A 1 "../src/test.vhd" 47 netlist
@@ -20,6 +22,7 @@
 ~E 1 "../src/Extender.vhd" 4 Extender
 ~A 1 "../src/Extender.vhd" 10 Behavioral
 ~E 1 "../src/InstructionMemory.vhd" 6 Instruction_Memory
+~A 1 "../src/InstructionMemory.vhd" 13 Behav
 ~A 1 "../src/InstructionMemory.vhd" 11 Behavioral
 ~E 1 "../src/InstructionMemory.vhd" 6 InstructionMemory
 ~A 1 "../src/InstructionMemory.vhd" 13 Behav
@@ -27,6 +30,8 @@
 ~A 1 "../src/MainControl.vhd" 14 MainControl
 ~E 1 "../src/InstructionMemory.vhd" 4 MUX2x1
 ~A 1 "../src/MUX2x1.vhd" 11 Behavioral
+~E 1 "../src/MUX3x1.vhd" 4 MUX3x1
+~A 1 "../src/MUX3x1.vhd" 12 Behavioral
 ~E 1 "../src/test.vhd" 3 newAnd
 ~A 1 "../src/test.vhd" 8 exp1
 ~E 1 "../src/test.vhd" 35 Not1
@@ -35,10 +40,14 @@
 ~A 1 "../src/test.vhd" 17 ex1
 ~E 1 "../src/PC.vhd" 5 PC
 ~A 1 "../src/PC.vhd" 14 Behavioral
+~E 1 "../src/PCControl.vhd" 4 PCControl
+~A 1 "../src/PCControl.vhd" 12 Beh
 ~E 1 "../src/processor.vhd" 16 processor
 ~A 1 "../src/processor.vhd" 23 structure
 ~E 1 "../src/RegisterFile.vhd" 8 RegisterFile
 ~A 1 "../src/RegisterFile.vhd" 19 Behavioral
+~E 1 "../src/test.vhd" 5 testbench
+~A 1 "../src/test.vhd" 8 tb
 ~E 1 "../src/test.vhd" 59 TestBenchFunction
 ~A 1 "../src/test.vhd" 62 io
 ~E 1 "../src/test.vhd" 3 three_state

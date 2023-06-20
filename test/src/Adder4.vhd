@@ -13,6 +13,6 @@ end Adder4;
 architecture Behavioral of Adder4 is
 begin
         -- Adding '00' to the 2 least significant bits after addition
-        add_output <= std_logic_vector(unsigned(add_input) + 1) & "00";
+        add_output <= std_logic_vector(signed(add_input) + 1) & "00";
 
 end Behavioral;
