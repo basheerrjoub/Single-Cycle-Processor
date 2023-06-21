@@ -17,7 +17,7 @@ architecture Behav of Instruction_Memory is
 
     constant MEM: ROM_Array := (
         X"1002000c",
-        X"10020004",
+        X"18020004",
         X"1002000c",
         X"00000012",
         X"00000003",

@@ -1,4 +1,4 @@
-Active-HDL 13.0.376.8320 2023-06-21 00:53:49
+Active-HDL 13.0.376.8320 2023-06-21 10:32:57
 
 Elaboration top modules:
 Architecture                  structure(processor)
@@ -42,9 +42,3 @@ ieee                              | Standard IEEE packages library
 std                               | Standard VHDL library
 test                              | None
 -----------------------------------------------------------------------------------------------------
-
-
-Simulation Options: asim -O5 +access +r +m+processor processor structure
-
-
-The performance of simulation is reduced. Version Student Edition

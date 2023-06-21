@@ -1,4 +1,4 @@
-214
+217
 ~E 1 "../src/4bitAdder.vhd" 6 Adder
 ~A 1 "../src/4bitAdder.vhd" 14 Behavioral
 ~E 1 "../src/Adder4.vhd" 6 Adder4

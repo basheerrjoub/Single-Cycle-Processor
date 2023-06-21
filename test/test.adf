@@ -57,6 +57,6 @@ UCF=
 .\src\BranchAdder.vhd=VHDL Source Code
 .\src\PCControl.vhd=VHDL Source Code
 [HierarchyViewer]
-HierarchyInformation=adder4|Behavioral|0 instructionmemory|Behav|0 processor|structure|0
+HierarchyInformation=branchadder|behavioral|0 processor|structure|0 testbench|tb|0
 ShowHide=ShowTopLevel
 Selected=
