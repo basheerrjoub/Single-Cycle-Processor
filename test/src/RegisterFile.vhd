@@ -22,7 +22,7 @@ type registerFile is array(31 downto 0) of std_logic_vector(31 downto 0);
 signal r : registerFile;
 begin
 
-	writeReg : process(clk, RW, RegWr)
+	writeReg : process(clk, RA, RB, RW, RegWr)
             begin
                 if rising_edge(clk) and RegWr = '1' then
                     case RW is

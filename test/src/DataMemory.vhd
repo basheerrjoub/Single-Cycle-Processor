@@ -21,32 +21,35 @@ architecture behav of DataMemory is
 
 
 
-type mem is array (0 to 4096) of
+type mem is array (0 to 65535) of
 	std_logic_vector(31 downto 0);
 Signal code : mem:=(
 
 
 	x"0000000A",
-	x"44444444",
-	x"44444444",
+	x"0000000B",
+	x"0000000C",
 
 	others=> x"00000000");
 
 begin
 
-    process(clk)
-    begin
-        if (rising_edge(clk)) then
-            if Write='1' then
+ writeMem : process(CLK, ADDRESS, Write, Data_in)
+            begin
+			 if rising_edge(CLK) and Write = '1' then
                 code(conv_integer(Address(15 downto 0))) <= Data_in;
             end if;
-            if Read='1' then
+
+	        end process;
+
+ readMem : process(CLK, ADDRESS, Read)
+            begin
+                if Read = '1' then
                 Data_out <= code(conv_integer(Address(15 downto 0)));
-            else
-                Data_out <= (others => '0');
-            end if;
-        end if;
-    end process;
+				end if;
+           end process;
+
+
 
 end behav;
 ----------------------------------------------------------------

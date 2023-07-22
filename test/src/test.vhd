@@ -1,46 +1,52 @@
-library ieee;
-use ieee.std_logic_1164.all;
-use ieee.numeric_std.all;
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.numeric_std.all;
 
-entity testbench is
-end testbench;
+ENTITY test_bench IS
+END test_bench;
 
-architecture tb of testbench is
+ARCHITECTURE behavior OF test_bench IS
 
-    component processor is
-        Port (clk: in STD_logic; reset: in  STD_LOGIC);
-    end component;
+    COMPONENT processor
+    PORT(
+         clk : IN  std_logic;
+         reset : IN  std_logic
+        );
+    END COMPONENT;
 
-    signal tb_clk: std_logic := '0';
-    signal tb_reset: std_logic := '1';
+   --Inputs
+   signal clk : std_logic := '0';
+   signal reset : std_logic := '1';
 
-    -- Define other signals if required
+   -- Clock period definitions
+   constant clk_period : time := 10 ns;
 
-    constant clk_period: time := 10 ns;
+BEGIN
 
-begin
-    -- Instantiate the device under test (DUT)
-    DUT: processor port map (clk => tb_clk, reset => tb_reset);
+	-- Instantiate the Unit Under Test (UUT)
+   uut: processor PORT MAP (
+          clk => clk,
+          reset => reset
+        );
 
-    -- Clock generation process
-    clk_process: process
-    begin
-        wait for clk_period/2;
-        tb_clk <= not tb_clk;
-    end process clk_process;
+   -- Clock process definitions
+   clk_process :process
+   begin
+		clk <= '0';
+		wait for clk_period/2;
+		clk <= '1';
+		wait for clk_period/2;
+   end process;
 
-    -- Stimulus process
-    stimulus_process: process
-    begin
-        -- Hold reset state for a while
-        wait for clk_period * 10;
-        tb_reset <= '0';
+   -- Stimulus process
+   stim_proc: process
+   begin
+      -- hold reset state for 100 ns.
+      wait for 1000 ns;
+      reset <= '0';
+      -- insert stimulus here
 
-        -- Implement your test cases here
+      wait;
+   end process;
 
-        -- Wait for everything to settle, then stop
-        wait for clk_period * 100;
-        assert false report "End of Test" severity failure;
-    end process stimulus_process;
-
-end tb;
+END;

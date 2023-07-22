@@ -9,11 +9,10 @@ entity BranchAdder is
         branchTarget : out std_logic_vector(31 downto 0)
     );
 end entity BranchAdder;
-
 architecture behavioral of BranchAdder is
 begin
     process(pc, extend)
     begin
-        branchTarget <= std_logic_vector(signed(pc) + signed(extend));
+        branchTarget <= std_logic_vector(signed(pc(31 downto 2)) + signed(extend(29 downto 0))) & "00";
     end process;
 end architecture behavioral;

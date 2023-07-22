@@ -1,4 +1,3 @@
-i<>.\src\test.vhd
 i<>.\src\PC.vhd
 i<>.\src\InstructionMemory.vhd
 i<>.\src\processor.vhd
@@ -13,3 +12,7 @@ i<>.\src\Extender.vhd
 i<>.\src\MUX3x1.vhd
 i<>.\src\BranchAdder.vhd
 i<>.\src\PCControl.vhd
+i<>.\src\registerTest.vhd
+i<>.\src\MUX2x1Reg.vhd
+i<>.\src\ALU_tb.vhd
+i<>.\src\SP.vhd

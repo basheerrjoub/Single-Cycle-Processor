@@ -21,7 +21,6 @@ ON_SERVERFARM_SIM=0
 [IMPLEMENTATION]
 UCF=
 [Files]
-/test.vhd=-1
 /..\..\..\..\..\archp2\p\arch\test\src\untitled.asdb=-1
 /..\..\..\..\..\archp2\p\arch\test\src\untitled.awc=-1
 /PC.vhd=-1
@@ -35,11 +34,16 @@ UCF=
 /MUX2x1.vhd=-1
 /MainControl.vhd=-1
 /Extender.vhd=-1
-/MUX3x1.vhd=-1
+/MUX4x1.vhd=-1
 /BranchAdder.vhd=-1
 /PCControl.vhd=-1
+/registerTest.vhd=-1
+/MUX2x1Reg.vhd=-1
+/ALU_tb.vhd=-1
+/SP.vhd=-1
+/..\..\..\..\..\archp2\p\arch\test\src\sim.asdb=-1
+/..\..\..\..\..\archp2\p\arch\test\src\sim.awc=-1
 [Files.Data]
-.\src\test.vhd=VHDL Source Code
 .\..\..\..\..\archp2\p\arch\test\src\untitled.asdb=Accelerated Waveform File
 .\..\..\..\..\archp2\p\arch\test\src\untitled.awc=Accelerated Waveform Configuration
 .\src\PC.vhd=VHDL Source Code
@@ -53,10 +57,16 @@ UCF=
 .\src\MUX2x1.vhd=VHDL Source Code
 .\src\MainControl.vhd=VHDL Source Code
 .\src\Extender.vhd=VHDL Source Code
-.\src\MUX3x1.vhd=VHDL Source Code
+.\src\MUX4x1.vhd=VHDL Source Code
 .\src\BranchAdder.vhd=VHDL Source Code
 .\src\PCControl.vhd=VHDL Source Code
+.\src\registerTest.vhd=VHDL Source Code
+.\src\MUX2x1Reg.vhd=VHDL Source Code
+.\src\ALU_tb.vhd=VHDL Source Code
+.\src\SP.vhd=VHDL Source Code
+.\..\..\..\..\archp2\p\arch\test\src\sim.asdb=Accelerated Waveform File
+.\..\..\..\..\archp2\p\arch\test\src\sim.awc=Accelerated Waveform Configuration
 [HierarchyViewer]
-HierarchyInformation=branchadder|behavioral|0 processor|structure|0 testbench|tb|0
+HierarchyInformation=processor|structure|0
 ShowHide=ShowTopLevel
 Selected=

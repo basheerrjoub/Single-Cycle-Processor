@@ -32,7 +32,15 @@ begin
 								when "00011" => ALUOP <= "011"; --CMP
 								when others => ALUOP <=   "---";
 							  end case;
-				--J Type: 10
+				--S Type
+				when "11" => case Funct is
+								when "00000" => ALUOP <= "100"; --SLL --4 Shift Left
+								when "00001" => ALUOP <= "101"; --SLR --5 Shift right
+								when "00010" => ALUOP <= "100"; --SLLV
+								when "00011" => ALUOP <= "101"; --SLRV
+								when others => ALUOP <=   "---";
+							  end case;
+			    --J Type: 10
 				when others => ALUOP <= "---";
 		end case;
 	end process;

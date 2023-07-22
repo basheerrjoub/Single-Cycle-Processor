@@ -16,13 +16,18 @@ architecture Behav of Instruction_Memory is
 
 
     constant MEM: ROM_Array := (
-        X"1002000c",
-        X"18020004",
-        X"1002000c",
-        X"00000012",
-        X"00000003",
-        X"00000004",
-        X"00000005",
+        X"08040024", --addi $0 $2 4
+        X"08000022", --JAL 4 Jump to the function and push pc+4 to the stack
+        X"0000000F", --After function
+        X"0000000F",
+        X"0000000F",
+        X"0802000c", --addi $0 $1 1 --- start of the function
+        X"00462000", --and $1 $3 $2
+        X"20c0000c", --beq $3 $0 1
+        X"0000000D", --Indicate ODD
+        X"0000000E", --Indicate Even
+        X"00000001", --Stop Bit just to pop the stack
+        X"00000000",
 		others => X"00000000"
     );
 

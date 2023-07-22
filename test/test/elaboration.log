@@ -1,4 +1,4 @@
-Active-HDL 13.0.376.8320 2023-06-21 10:32:57
+Active-HDL 13.0.376.8320 2023-07-16 11:07:39
 
 Elaboration top modules:
 Architecture                  structure(processor)
@@ -11,6 +11,7 @@ processor          | structure    | test    |      | 13.0.376.8320 (Windows64) |
 Adder4             | Behavioral   | test    |      | 13.0.376.8320 (Windows64) | -O3
 PC                 | Behavioral   | test    |      | 13.0.376.8320 (Windows64) | -O3
 Instruction_Memory | Behav        | test    |      | 13.0.376.8320 (Windows64) | -O3
+MUX2x1Reg          | Behavioral   | test    |      | 13.0.376.8320 (Windows64) | -O3
 RegisterFile       | Behavioral   | test    |      | 13.0.376.8320 (Windows64) | -O3
 ALUControl         | Behavioral   | test    |      | 13.0.376.8320 (Windows64) | -O3
 ALU                | Behavioral   | test    |      | 13.0.376.8320 (Windows64) | -O3
@@ -18,7 +19,8 @@ Extender           | Behavioral   | test    |      | 13.0.376.8320 (Windows64) |
 MUX2x1             | Behavioral   | test    |      | 13.0.376.8320 (Windows64) | -O3
 MainControl        | MainControl  | test    |      | 13.0.376.8320 (Windows64) | -O3
 DataMemory         | behav        | test    |      | 13.0.376.8320 (Windows64) | -O3
-MUX3x1             | Behavioral   | test    |      | 13.0.376.8320 (Windows64) | -O3
+SP                 | Behavioral   | test    |      | 13.0.376.8320 (Windows64) | -O3
+MUX4x1             | Behavioral   | test    |      | 13.0.376.8320 (Windows64) | -O3
 BranchAdder        | behavioral   | test    |      | 13.0.376.8320 (Windows64) | -O3
 PCControl          | Beh          | test    |      | 13.0.376.8320 (Windows64) | -O3
 -----------------------------------------------------------------------------------------------------

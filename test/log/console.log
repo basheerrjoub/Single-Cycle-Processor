@@ -1,412 +1,12 @@
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
-acom -O3 -e 100 -work test -2002  $dsn/src/MainControl.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/MainControl.vhd
-# Compile Entity "MainControl"
-# Compile Architecture "MainControl" of Entity "MainControl"
-# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
-acom -O3 -e 100 -work test -2002  $dsn/src/MUX3x1.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/MUX3x1.vhd
-# Compile Entity "MUX3x1"
-# Compile Architecture "Behavioral" of Entity "MUX3x1"
-# A feature of VHDL 2008 has been detected. Use the -2008 argument of the vcom command.
-# Error: COMP96_0019: MUX3x1.vhd : (15, 2): Keyword 'end' expected.
-# Error: COMP96_0016: MUX3x1.vhd : (15, 7): Design unit declaration expected.
-# Compile failure 2 Errors 0 Warnings  Analysis time :  47.0 [ms]
-acom -O3 -e 100 -work test -2002  $dsn/src/MUX3x1.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/MUX3x1.vhd
-# Compile Entity "MUX3x1"
-# Compile Architecture "Behavioral" of Entity "MUX3x1"
-# A feature of VHDL 2008 has been detected. Use the -2008 argument of the vcom command.
-# Error: COMP96_0019: MUX3x1.vhd : (15, 2): Keyword 'end' expected.
-# Error: COMP96_0016: MUX3x1.vhd : (15, 7): Design unit declaration expected.
-# Compile failure 2 Errors 0 Warnings  Analysis time :  15.0 [ms]
-acom -O3 -e 100 -work test -2002  $dsn/src/MUX3x1.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/MUX3x1.vhd
-# Compile Entity "MUX3x1"
-# Compile Architecture "Behavioral" of Entity "MUX3x1"
-# Error: COMP96_0019: MUX3x1.vhd : (16, 3): Keyword 'begin' expected.
-# Error: COMP96_0019: MUX3x1.vhd : (18, 4): Keyword 'end' expected.
-# Error: COMP96_0016: MUX3x1.vhd : (18, 9): Design unit declaration expected.
-# Compile failure 3 Errors 0 Warnings  Analysis time :  15.0 [ms]
-acom -O3 -e 100 -work test -2002  $dsn/src/MUX3x1.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/MUX3x1.vhd
-# Compile Entity "MUX3x1"
-# Compile Architecture "Behavioral" of Entity "MUX3x1"
-# Error: COMP96_0015: MUX3x1.vhd : (22, 3): ';' expected.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
-asim -O5 +access +r +m+processor processor structure
-# ELBREAD: Elaboration process.
-# ELBREAD: Error: The contents of entity 'test.maincontrol' instantiated in architecture 'structure:processor' differ from the contents available during the compilation of this architecture.
-# ELBREAD: Error: Elaboration process completed with errors.
-# Design: Error: Elaboration failed
-# Error: VSIM: cannot select specified top-level
-acom -O3 -e 100 -work test -2002  $dsn/src/MUX3x1.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/MUX3x1.vhd
-# Compile Entity "MUX3x1"
-# Compile Architecture "Behavioral" of Entity "MUX3x1"
-# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
-acom -O3 -e 100 -work test -2002  $dsn/src/MainControl.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/MainControl.vhd
-# Compile Entity "MainControl"
-# Compile Architecture "MainControl" of Entity "MainControl"
-# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# Breakpoint set on signal "/processor/reset".
 acom -O3 -e 100 -work test -2002  $dsn/src/processor.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
 # File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/processor.vhd
 # Compile Entity "processor"
 # Compile Architecture "structure" of Entity "processor"
-# Error: COMP96_0034: processor.vhd : (159, 32): Expression or keyword expected.
-# Error: COMP96_0019: processor.vhd : (160, 2): Keyword 'end' expected.
-# Error: COMP96_0016: processor.vhd : (160, 12): Design unit declaration expected.
-# Compile failure 3 Errors 0 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work test -2002  $dsn/src/processor.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/processor.vhd
-# Compile Entity "processor"
-# Compile Architecture "structure" of Entity "processor"
-# Error: COMP96_0015: processor.vhd : (131, 44): ';' expected.
-# Error: COMP96_0033: processor.vhd : (163, 69): Missing actual.
-# Error: COMP96_0033: processor.vhd : (163, 77): Missing actual.
-# Compile failure 3 Errors 0 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work test -2002  $dsn/src/processor.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/processor.vhd
-# Compile Entity "processor"
-# Compile Architecture "structure" of Entity "processor"
-# Error: COMP96_0033: processor.vhd : (163, 69): Missing actual.
-# Error: COMP96_0033: processor.vhd : (163, 77): Missing actual.
-# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [ms]
-acom -O3 -e 100 -work test -2002  $dsn/src/processor.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/processor.vhd
-# Compile Entity "processor"
-# Compile Architecture "structure" of Entity "processor"
-# Error: COMP96_0078: processor.vhd : (161, 2): Unknown identifier "addr32_pc_next".
-# Error: COMP96_0133: processor.vhd : (161, 2): Cannot find object declaration.
-# Error: COMP96_0078: processor.vhd : (163, 69): Unknown identifier "addr32_pc_next".
-# Error: COMP96_0078: processor.vhd : (163, 91): Unknown identifier "addr32_pc_next".
-# Compile failure 4 Errors 0 Warnings  Analysis time :  32.0 [ms]
-acom -O3 -e 100 -work test -2002  $dsn/src/processor.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/processor.vhd
-# Compile Entity "processor"
-# Compile Architecture "structure" of Entity "processor"
-# Error: COMP96_0753: processor.vhd : (161, 58): Cannot find the "+" operator with operands denoted with the "[STD_LOGIC_VECTOR, STD_LOGIC_VECTOR]" signature.
-# Error: COMP96_0077: processor.vhd : (161, 19): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Compile failure 2 Errors 0 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work test -2002  $dsn/src/processor.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/processor.vhd
-# Compile Entity "processor"
-# Compile Architecture "structure" of Entity "processor"
-# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work test -2002  $dsn/src/BranchAdder.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/BranchAdder.vhd
-# Compile Entity "BranchAdder"
-# Compile Architecture "behavioral" of Entity "BranchAdder"
 # Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-asim -O5 +access +r +m+BranchAdder BranchAdder behavioral
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# VSIM: Stack memory: 32MB
-# VSIM: Retval memory: 32MB
-# 
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 5564 kB (elbread=427 elab2=4998 kernel=138 sdf=0)
-# KERNEL: ASDB file was created in location C:\Users\Bash\Desktop\arch p2\p\arch\test\src\wave.asdb
-# Stimuli: Warning: The stimuli set "StimuliSet48" has been made inactive.
-#  8:01 ?, C?E?CEC?? 20 ????C? 2023
-#  Simulation has been initialized
-step -over
-# KERNEL: Simulation has finished. There are no more test vectors to simulate.
-# VSIM: 3 object(s) traced.
-# Waveform file 'untitled.awc' connected to 'C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb'.
-run 1 us
-# KERNEL: stopped at time: 1 us
-# KERNEL: Simulation has finished. There are no more test vectors to simulate.
-endsim
-# VSIM: Simulation has finished.
-acom -O3 -e 100 -work test -2002  $dsn/src/processor.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/processor.vhd
-# Compile Entity "processor"
-# Compile Architecture "structure" of Entity "processor"
-# Error: COMP96_0019: processor.vhd : (186, 1): Keyword 'end' expected.
-# Error: COMP96_0016: processor.vhd : (186, 11): Design unit declaration expected.
-# Compile failure 2 Errors 0 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work test -2002  $dsn/src/processor.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/processor.vhd
-# Compile Entity "processor"
-# Compile Architecture "structure" of Entity "processor"
-# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
-acom -O3 -e 100 -work test -2002  $dsn/src/PCControl.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/PCControl.vhd
-# Compile Entity "PCControl"
-# Compile Architecture "Beh" of Entity "PCControl"
-# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
-acom -O3 -e 100 -work test -2002  $dsn/src/MainControl.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/MainControl.vhd
-# Compile Entity "MainControl"
-# Error: COMP96_0018: MainControl.vhd : (9, 1): Identifier expected.
-# Error: COMP96_0015: MainControl.vhd : (9, 1): ')' expected.
-# Error: COMP96_0015: MainControl.vhd : (9, 1): ';' expected.
-# Error: COMP96_0019: MainControl.vhd : (9, 5): Keyword 'end' expected.
-# Compile Architecture "MainControl" of Entity "MainControl"
-# Compile failure 4 Errors 0 Warnings  Analysis time :  78.0 [ms]
-acom -O3 -e 100 -work test -2002  $dsn/src/MainControl.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/MainControl.vhd
-# Compile Entity "MainControl"
-# Error: COMP96_0018: MainControl.vhd : (8, 72): Identifier expected.
-# Error: COMP96_0015: MainControl.vhd : (9, 1): ';' expected.
-# Error: COMP96_0019: MainControl.vhd : (9, 5): Keyword 'end' expected.
-# Compile Architecture "MainControl" of Entity "MainControl"
-# Compile failure 3 Errors 0 Warnings  Analysis time :  46.0 [ms]
-acom -O3 -e 100 -work test -2002  $dsn/src/MainControl.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/MainControl.vhd
-# Compile Entity "MainControl"
-# Compile Architecture "MainControl" of Entity "MainControl"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [ms]
-acom -O3 -e 100 -work test -2002  $dsn/src/processor.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/processor.vhd
-# Compile Entity "processor"
-# Compile Architecture "structure" of Entity "processor"
-# Error: ELAB1_0011: processor.vhd : (175, 0): Port "ALUzero" is on entity "MainControl" but not on the component declaration.
-# Error: COMP96_0078: processor.vhd : (175, 194): Unknown identifier "PCSrc".
-# Error: COMP96_0133: processor.vhd : (175, 194): Cannot find object declaration.
-# Error: COMP96_0112: processor.vhd : (175, 194): "PCSrc" does not match the formal name.
-# Compile failure 4 Errors 0 Warnings  Analysis time :  0.0 [ms]
-acom -O3 -e 100 -work test -2002  $dsn/src/processor.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/processor.vhd
-# Compile Entity "processor"
-# Compile Architecture "structure" of Entity "processor"
-# Error: ELAB1_0011: processor.vhd : (175, 0): Port "ALUzero" is on entity "MainControl" but not on the component declaration.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  15.0 [ms]
-acom -O3 -e 100 -work test -2002  $dsn/src/MainControl.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/MainControl.vhd
-# Compile Entity "MainControl"
-# Compile Architecture "MainControl" of Entity "MainControl"
-# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
-acom -O3 -e 100 -work test -2002  $dsn/src/processor.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/processor.vhd
-# Compile Entity "processor"
-# Compile Architecture "structure" of Entity "processor"
-# Error: ELAB1_0011: processor.vhd : (175, 0): Port "ALUzero" is on entity "MainControl" but not on the component declaration.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
-acom -O3 -e 100 -work test -2002  $dsn/src/MainControl.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/MainControl.vhd
-# Compile Entity "MainControl"
-# Compile Architecture "MainControl" of Entity "MainControl"
-# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work test -2002  $dsn/src/processor.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/processor.vhd
-# Compile Entity "processor"
-# Compile Architecture "structure" of Entity "processor"
-# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
-acom -O3 -e 100 -work test -2002  $dsn/src/processor.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/processor.vhd
-# Compile Entity "processor"
-# Compile Architecture "structure" of Entity "processor"
-# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
-acom -O3 -e 100 -work test -2002  $dsn/src/test.vhd $dsn/src/PC.vhd $dsn/src/InstructionMemory.vhd $dsn/src/processor.vhd $dsn/src/Adder4.vhd $dsn/src/RegisterFile.vhd $dsn/src/ALU.vhd $dsn/src/ALUControl.vhd $dsn/src/DataMemory.vhd $dsn/src/MUX2x1.vhd $dsn/src/MainControl.vhd $dsn/src/Extender.vhd $dsn/src/MUX3x1.vhd $dsn/src/BranchAdder.vhd $dsn/src/PCControl.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/test.vhd
-# Compile Entity "decoder2x4"
-# Compile Architecture "exp1" of Entity "decoder2x4"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/PC.vhd
-# Compile Entity "PC"
-# Compile Architecture "Behavioral" of Entity "PC"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/InstructionMemory.vhd
-# Compile Entity "Instruction_Memory"
-# Compile Architecture "Behav" of Entity "Instruction_Memory"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/processor.vhd
-# Compile Entity "processor"
-# Compile Architecture "structure" of Entity "processor"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/Adder4.vhd
-# Compile Entity "Adder4"
-# Compile Architecture "Behavioral" of Entity "Adder4"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/RegisterFile.vhd
-# Compile Entity "RegisterFile"
-# Compile Architecture "Behavioral" of Entity "RegisterFile"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/ALU.vhd
-# Compile Entity "ALU"
-# Compile Architecture "Behavioral" of Entity "ALU"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/ALUControl.vhd
-# Compile Entity "ALUControl"
-# Compile Architecture "Behavioral" of Entity "ALUControl"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/DataMemory.vhd
-# Compile Entity "DataMemory"
-# Compile Architecture "behav" of Entity "DataMemory"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/MUX2x1.vhd
-# Compile Entity "MUX2x1"
-# Compile Architecture "Behavioral" of Entity "MUX2x1"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/MainControl.vhd
-# Compile Entity "MainControl"
-# Compile Architecture "MainControl" of Entity "MainControl"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/Extender.vhd
-# Compile Entity "Extender"
-# Compile Architecture "Behavioral" of Entity "Extender"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/MUX3x1.vhd
-# Compile Entity "MUX3x1"
-# Compile Architecture "Behavioral" of Entity "MUX3x1"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/BranchAdder.vhd
-# Compile Entity "BranchAdder"
-# Compile Architecture "behavioral" of Entity "BranchAdder"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/PCControl.vhd
-# Compile Entity "PCControl"
-# Compile Architecture "Beh" of Entity "PCControl"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.6 [s]
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-asim -O5 +access +r +m+processor processor structure
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# VSIM: Stack memory: 32MB
-# VSIM: Retval memory: 32MB
-# 
-acom -O3 -e 100 -work test -2002  $dsn/src/processor.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/processor.vhd
-# Compile Entity "processor"
-# Compile Architecture "structure" of Entity "processor"
-# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 24315 kB (elbread=427 elab2=23748 kernel=139 sdf=0)
-# KERNEL: ASDB file was created in location C:\Users\Bash\Desktop\arch p2\p\arch\test\src\wave.asdb
-# Stimuli: Warning: The stimuli set "StimuliSet49" has been made inactive.
-#  10:50 ?, C?E?CEC?? 20 ????C? 2023
-#  Simulation has been initialized
-run 100 ns
-# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/IM_block,  Process: line__26.
-# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/RF_block,  Process: line__34.
-# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/RF_block,  Process: line__34.
-# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /processor/ALU_block,  Process: line__18.
-# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-# KERNEL: Time: 0 ps,  Iteration: 3,  Instance: /processor/ALU_block,  Process: line__30.
-# KERNEL: stopped at time: 100 ns
-# KERNEL: Simulation has finished. There are no more test vectors to simulate.
-# VSIM: 26 object(s) traced.
-# Waveform file 'untitled.awc' connected to 'C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb'.
-run 1 us
-# KERNEL: stopped at time: 1100 ns
-run 1 us
-# KERNEL: stopped at time: 2100 ns
-run 1 us
-# KERNEL: stopped at time: 3100 ns
-run 1 us
-# KERNEL: stopped at time: 4100 ns
-endsim
-# VSIM: Simulation has finished.
-asim -O5 +access +r +m+processor processor structure
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# VSIM: Stack memory: 32MB
-# VSIM: Retval memory: 32MB
-# 
-acom -O3 -e 100 -work test -2002  $dsn/src/InstructionMemory.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/InstructionMemory.vhd
-# Compile Entity "Instruction_Memory"
-# Compile Architecture "Behav" of Entity "Instruction_Memory"
-# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 24315 kB (elbread=427 elab2=23748 kernel=139 sdf=0)
-# KERNEL: ASDB file was created in location C:\Users\Bash\Desktop\arch p2\p\arch\test\src\wave.asdb
-# Stimuli: Warning: The stimuli set "StimuliSet50" has been made inactive.
-#  10:59 ?, C?E?CEC?? 20 ????C? 2023
-#  Simulation has been initialized
-# Waveform file 'untitled.awc' connected to 'C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb'.
-run 1 us
-# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/IM_block,  Process: line__26.
-# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/RF_block,  Process: line__34.
-# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/RF_block,  Process: line__34.
-# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /processor/ALU_block,  Process: line__18.
-# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-# KERNEL: Time: 0 ps,  Iteration: 3,  Instance: /processor/ALU_block,  Process: line__30.
-# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# KERNEL: Time: 500 ns,  Iteration: 1,  Instance: /processor/IM_block,  Process: line__26.
-# KERNEL: stopped at time: 1 us
-acom -O3 -e 100 -work test -2002  $dsn/src/InstructionMemory.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/InstructionMemory.vhd
-# Compile Entity "Instruction_Memory"
-# Compile Architecture "Behav" of Entity "Instruction_Memory"
-# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
-endsim
-# VSIM: Simulation has finished.
 asim -O5 +access +r +m+processor processor structure
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
@@ -423,1070 +23,303 @@ asim -O5 +access +r +m+processor processor structure
 # SLP: Elaboration phase ...
 # SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
 # SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# ELAB2: Elaboration final pass complete - time: 0.7 [s].
 # KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
 # KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
 # KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 24315 kB (elbread=427 elab2=23748 kernel=139 sdf=0)
+# Allocation: Simulator allocated 289291 kB (elbread=427 elab2=288723 kernel=140 sdf=0)
 # KERNEL: ASDB file was created in location C:\Users\Bash\Desktop\arch p2\p\arch\test\src\wave.asdb
-# Stimuli: Warning: The stimuli set "StimuliSet51" has been made inactive.
-#  11:11 ?, C?E?CEC?? 20 ????C? 2023
-#  Simulation has been initialized
-# Waveform file 'untitled.awc' connected to 'C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb'.
-# VSIM: 26 object(s) traced.
-run 1 us
-# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/IM_block,  Process: line__26.
-# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/RF_block,  Process: line__34.
-# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/RF_block,  Process: line__34.
-# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /processor/ALU_block,  Process: line__18.
-# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-# KERNEL: Time: 0 ps,  Iteration: 3,  Instance: /processor/ALU_block,  Process: line__30.
-# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# KERNEL: Time: 500 ns,  Iteration: 1,  Instance: /processor/IM_block,  Process: line__26.
-# KERNEL: stopped at time: 1 us
-acom -O3 -e 100 -work test -2002  $dsn/src/Adder4.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/Adder4.vhd
-# Compile Entity "Adder4"
-# Compile Architecture "Behavioral" of Entity "Adder4"
-# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
-acom -O3 -e 100 -work test -2002  $dsn/src/PC.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/PC.vhd
-# Compile Entity "PC"
-# Compile Architecture "Behavioral" of Entity "PC"
-# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
-acom -O3 -e 100 -work test -2002  $dsn/src/PC.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/PC.vhd
-# Compile Entity "PC"
-# Compile Architecture "Behavioral" of Entity "PC"
-# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
-acom -O3 -e 100 -work test -2002  $dsn/src/InstructionMemory.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/InstructionMemory.vhd
-# Compile Entity "Instruction_Memory"
-# Compile Architecture "Behav" of Entity "Instruction_Memory"
-# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
-acom -O3 -e 100 -work test -2002  $dsn/src/RegisterFile.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/RegisterFile.vhd
-# Compile Entity "RegisterFile"
-# Compile Architecture "Behavioral" of Entity "RegisterFile"
-# Error: COMP96_0078: RegisterFile.vhd : (28, 26): Unknown identifier "RD".
-# Error: COMP96_0133: RegisterFile.vhd : (28, 26): Cannot find object declaration.
-# Error: COMP96_0584: RegisterFile.vhd : (28, 26): Cannot determine the type of the case expression. Enumeration type, integer type, or one-dimensional array of characters expected.
-# Compile failure 3 Errors 0 Warnings  Analysis time :  47.0 [ms]
-acom -O3 -e 100 -work test -2002  $dsn/src/RegisterFile.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/RegisterFile.vhd
-# Compile Entity "RegisterFile"
-# Compile Architecture "Behavioral" of Entity "RegisterFile"
-# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
-acom -O3 -e 100 -work test -2002  $dsn/src/RegisterFile.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/RegisterFile.vhd
-# Compile Entity "RegisterFile"
-# Compile Architecture "Behavioral" of Entity "RegisterFile"
-# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
-endsim
-# VSIM: Simulation has finished.
-acom -O3 -e 100 -work test -2002  $dsn/src/processor.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/processor.vhd
-# Compile Entity "processor"
-# Compile Architecture "structure" of Entity "processor"
-# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
-asim -O5 +access +r +m+processor processor structure
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# VSIM: Stack memory: 32MB
-# VSIM: Retval memory: 32MB
-# 
-acom -O3 -e 100 -work test -2002  $dsn/src/ALUControl.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/ALUControl.vhd
-# Compile Entity "ALUControl"
-# Compile Architecture "Behavioral" of Entity "ALUControl"
-# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 24322 kB (elbread=427 elab2=23755 kernel=139 sdf=0)
-# KERNEL: ASDB file was created in location C:\Users\Bash\Desktop\arch p2\p\arch\test\src\wave.asdb
-# Stimuli: Warning: The stimuli set "StimuliSet52" has been made inactive.
-#  11:59 ?, C?E?CEC?? 20 ????C? 2023
-#  Simulation has been initialized
-# VSIM: 26 object(s) traced.
-# Waveform file 'untitled.awc' connected to 'C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb'.
-run 1 us
-# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/IM_block,  Process: line__26.
-# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /processor/ALU_block,  Process: line__18.
-# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-# KERNEL: Time: 0 ps,  Iteration: 3,  Instance: /processor/ALU_block,  Process: line__30.
-# KERNEL: stopped at time: 1 us
-run 1 us
-# KERNEL: stopped at time: 2 us
-endsim
-# VSIM: Simulation has finished.
-acom -O3 -e 100 -work test -2002  $dsn/src/InstructionMemory.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/InstructionMemory.vhd
-# Compile Entity "Instruction_Memory"
-# Compile Architecture "Behav" of Entity "Instruction_Memory"
-# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
-acom -O3 -e 100 -work test -2002  $dsn/src/processor.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/processor.vhd
-# Compile Entity "processor"
-# Compile Architecture "structure" of Entity "processor"
-# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
-asim -O5 +access +r +m+processor processor structure
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# VSIM: Stack memory: 32MB
-# VSIM: Retval memory: 32MB
-# 
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 24322 kB (elbread=427 elab2=23755 kernel=139 sdf=0)
-# KERNEL: ASDB file was created in location C:\Users\Bash\Desktop\arch p2\p\arch\test\src\wave.asdb
-# Stimuli: Warning: The stimuli set "StimuliSet53" has been made inactive.
-#  12:03 ?, C???E?C?? 21 ????C? 2023
-#  Simulation has been initialized
-# Waveform file 'untitled.awc' connected to 'C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb'.
-run 1 us
-# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/IM_block,  Process: line__26.
-# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /processor/ALU_block,  Process: line__18.
-# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-# KERNEL: Time: 0 ps,  Iteration: 3,  Instance: /processor/ALU_block,  Process: line__30.
-# KERNEL: stopped at time: 1 us
-run 1 us
-# KERNEL: stopped at time: 2 us
-run 1 us
-# KERNEL: stopped at time: 3 us
-run 1 us
-# KERNEL: stopped at time: 4 us
-endsim
-# VSIM: Simulation has finished.
-acom -O3 -e 100 -work test -2002  $dsn/src/test.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/test.vhd
-# Compile Entity "testbench"
-# Compile Architecture "tb" of Entity "testbench"
-# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-asim -O5 +access +r +m+testbench testbench tb
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# VSIM: Stack memory: 32MB
-# VSIM: Retval memory: 32MB
-# 
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 24324 kB (elbread=427 elab2=23756 kernel=140 sdf=0)
-# KERNEL: ASDB file was created in location C:\Users\Bash\Desktop\arch p2\p\arch\test\src\wave.asdb
-# Stimuli: Warning: The stimuli set "StimuliSet54" has been made inactive.
-#  12:15 ?, C???E?C?? 21 ????C? 2023
-#  Simulation has been initialized
-# Waveform file 'untitled.awc' connected to 'C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb'.
-# Warning: WAVEFORM: Object matching /processor/clk not found in C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb.
-# Warning: WAVEFORM: Object matching /processor/reset not found in C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb.
-# Warning: WAVEFORM: Object matching /processor/branchTargetT not found in C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb.
-# Warning: WAVEFORM: Object matching /processor/adder_in not found in C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb.
-# Warning: WAVEFORM: Object matching /processor/addr32_pc_next not found in C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb.
-# Warning: WAVEFORM: Object matching /processor/adder_out not found in C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb.
-# Warning: WAVEFORM: Object matching /processor/pc_out not found in C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb.
-# Warning: WAVEFORM: Object matching /processor/pc_in not found in C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb.
-# Warning: WAVEFORM: Object matching /processor/busAT not found in C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb.
-# Warning: WAVEFORM: Object matching /processor/busBT not found in C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb.
-# Warning: WAVEFORM: Object matching /processor/busWT not found in C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb.
-# Warning: WAVEFORM: Object matching /processor/InstrT not found in C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb.
-# Warning: WAVEFORM: Object matching /processor/ExtOut not found in C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb.
-# Warning: WAVEFORM: Object matching /processor/ALUINB not found in C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb.
-# Warning: WAVEFORM: Object matching /processor/MemMuxOut not found in C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb.
-# Warning: WAVEFORM: Object matching /processor/ALUOUT not found in C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb.
-# Warning: WAVEFORM: Object matching /processor/DMemOut not found in C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb.
-# Warning: WAVEFORM: Object matching /processor/ALUOPTemp not found in C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb.
-# Warning: WAVEFORM: Object matching /processor/RegWrT not found in C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb.
-# Warning: WAVEFORM: Object matching /processor/EXTOPT not found in C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb.
-# Warning: WAVEFORM: Object matching /processor/ALUSrcT not found in C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb.
-# Warning: WAVEFORM: Object matching /processor/MemRdT not found in C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb.
-# Warning: WAVEFORM: Object matching /processor/MemWrT not found in C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb.
-# Warning: WAVEFORM: Object matching /processor/WBdataT not found in C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb.
-# Warning: WAVEFORM: Object matching /processor/ALUZeroT not found in C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb.
-# Warning: WAVEFORM: Object matching /processor/PCSrcT not found in C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb.
-# VSIM: 2 object(s) traced.
-# Waveform file 'untitled.awc' connected to 'C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb'.
-run 100 ns
-# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /testbench/DUT/IM_block,  Process: line__26.
-# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /testbench/DUT/ALU_block,  Process: line__18.
-# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-# KERNEL: Time: 0 ps,  Iteration: 3,  Instance: /testbench/DUT/ALU_block,  Process: line__30.
-# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# KERNEL: Time: 10 ns,  Iteration: 3,  Instance: /testbench/DUT/IM_block,  Process: line__26.
-# KERNEL: stopped at time: 100 ns
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-asim -O5 +access +r +m+processor processor structure
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# VSIM: Stack memory: 32MB
-# VSIM: Retval memory: 32MB
-# 
-acom -O3 -e 100 -work test -2002  $dsn/src/processor.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/processor.vhd
-# Compile Entity "processor"
-# Compile Architecture "structure" of Entity "processor"
-# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 24322 kB (elbread=427 elab2=23755 kernel=139 sdf=0)
-# KERNEL: ASDB file was created in location C:\Users\Bash\Desktop\arch p2\p\arch\test\src\wave.asdb
-#  12:18 ?, C???E?C?? 21 ????C? 2023
-#  Simulation has been initialized
-# VSIM: 26 object(s) traced.
-# Waveform file 'untitled.awc' connected to 'C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb'.
-# Breakpoint set on signal "/processor/reset".
-run 100 ns
-# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/IM_block,  Process: line__26.
-# KERNEL: Stopped at time 0 ps + 0.
-# Stopped at breakpoint on signal "/processor/reset" (Event condition).
-
-run 100 ns
-# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /processor/ALU_block,  Process: line__18.
-# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-# KERNEL: Time: 0 ps,  Iteration: 3,  Instance: /processor/ALU_block,  Process: line__30.
-# KERNEL: Stopped at time 10 ns + 0.
-# Stopped at breakpoint on signal "/processor/reset" (Event condition).
-run 100 ns
-# KERNEL: stopped at time: 110 ns
-endsim
-# VSIM: Simulation has finished.
-asim -O5 +access +r +m+processor processor structure
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# VSIM: Stack memory: 32MB
-# VSIM: Retval memory: 32MB
-# 
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 24322 kB (elbread=427 elab2=23755 kernel=139 sdf=0)
-# KERNEL: ASDB file was created in location C:\Users\Bash\Desktop\arch p2\p\arch\test\src\wave.asdb
-# Stimuli: Warning: The stimuli set "StimuliSet55" has been made inactive.
-#  12:19 ?, C???E?C?? 21 ????C? 2023
-#  Simulation has been initialized
-# Waveform file 'untitled.awc' connected to 'C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb'.
-# Breakpoint set on signal "/processor/reset".
-run 1 s
-# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/IM_block,  Process: line__26.
-# KERNEL: Stopped at time 0 ps + 0.
-# Stopped at breakpoint on signal "/processor/reset" (Event condition).
-
-run 1 s
-# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /processor/ALU_block,  Process: line__18.
-# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-# KERNEL: Time: 0 ps,  Iteration: 3,  Instance: /processor/ALU_block,  Process: line__30.
-# KERNEL: Stopped at time 1 ms + 0.
-# Stopped at breakpoint on signal "/processor/reset" (Event condition).
-run 1 s
-# KERNEL: stopped at time: 1001 ms
-run 1 s
-# KERNEL: stopped at time: 2001 ms
-run 1 s
-# KERNEL: stopped at time: 3001 ms
-endsim
-# VSIM: Simulation has finished.
-acom -O3 -e 100 -work test -2002  $dsn/src/MUX3x1.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/MUX3x1.vhd
-# Compile Entity "MUX3x1"
-# Compile Architecture "Behavioral" of Entity "MUX3x1"
-# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
-asim -O5 +access +r +m+processor processor structure
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# VSIM: Stack memory: 32MB
-# VSIM: Retval memory: 32MB
-# 
-acom -O3 -e 100 -work test -2002  $dsn/src/processor.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/processor.vhd
-# Compile Entity "processor"
-# Compile Architecture "structure" of Entity "processor"
-# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 24322 kB (elbread=427 elab2=23755 kernel=139 sdf=0)
-# KERNEL: ASDB file was created in location C:\Users\Bash\Desktop\arch p2\p\arch\test\src\wave.asdb
-# Stimuli: Warning: The stimuli set "StimuliSet56" has been made inactive.
-#  12:28 ?, C???E?C?? 21 ????C? 2023
-#  Simulation has been initialized
-# Waveform file 'untitled.awc' connected to 'C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb'.
-# Breakpoint set on signal "/processor/reset".
-# KERNEL: Warning: KERNEL_0291 Object "/processor/branchTargetT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/adder_in" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/addr32_pc_next" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/adder_out" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/pc_out" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/pc_in" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/busAT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/busBT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/busWT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/InstrT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/ExtOut" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUINB" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/MemMuxOut" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUOUT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/DMemOut" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUOPTemp" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/RegWrT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/EXTOPT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUSrcT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/MemRdT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/MemWrT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/WBdataT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUZeroT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/PCSrcT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/clk" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/reset" has already been traced.
-# VSIM: 0 object(s) traced.
-# Waveform file 'untitled.awc' connected to 'C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb'.
-run 1 ms
-# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/IM_block,  Process: line__26.
-# KERNEL: Stopped at time 0 ps + 0.
-# Stopped at breakpoint on signal "/processor/reset" (Event condition).
-run 1 ms
-# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /processor/ALU_block,  Process: line__18.
-# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-# KERNEL: Time: 0 ps,  Iteration: 3,  Instance: /processor/ALU_block,  Process: line__30.
-# KERNEL: Stopped at time 1 us + 0.
-# Stopped at breakpoint on signal "/processor/reset" (Event condition).
-run 1 ms
-# KERNEL: stopped at time: 1001 us
-run 1 ms
-# KERNEL: stopped at time: 2001 us
-run 1 ms
-# KERNEL: stopped at time: 3001 us
-endsim
-# VSIM: Simulation has finished.
-
-asim -O5 +access +r +m+processor processor structure
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# VSIM: Stack memory: 32MB
-# VSIM: Retval memory: 32MB
-# 
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 24322 kB (elbread=427 elab2=23755 kernel=139 sdf=0)
-# KERNEL: ASDB file was created in location C:\Users\Bash\Desktop\arch p2\p\arch\test\src\wave.asdb
-# Stimuli: Warning: The stimuli set "StimuliSet57" has been made inactive.
-#  12:30 ?, C???E?C?? 21 ????C? 2023
-#  Simulation has been initialized
-# Waveform file 'untitled.awc' connected to 'C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb'.
-# Waveform file 'untitled.awc' connected to 'C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb'.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/clk" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/reset" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/branchTargetT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/adder_in" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/addr32_pc_next" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/adder_out" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/pc_out" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/pc_in" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/busAT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/busBT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/busWT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/InstrT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/ExtOut" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUINB" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/MemMuxOut" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUOUT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/DMemOut" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUOPTemp" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/RegWrT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/EXTOPT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUSrcT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/MemRdT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/MemWrT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/WBdataT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUZeroT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/PCSrcT" has already been traced.
-# Breakpoint set on signal "/processor/reset".
-run 1 s
-# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/IM_block,  Process: line__26.
-# KERNEL: Stopped at time 0 ps + 0.
-# Stopped at breakpoint on signal "/processor/reset" (Event condition).
-run 1 s
-# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /processor/ALU_block,  Process: line__18.
-# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-# KERNEL: Time: 0 ps,  Iteration: 3,  Instance: /processor/ALU_block,  Process: line__30.
-# KERNEL: Stopped at time 100 ns + 0.
-# Stopped at breakpoint on signal "/processor/reset" (Event condition).
-run 1 s
-# KERNEL: stopped at time: 1000000100 ns
-run 1 s
-# KERNEL: stopped at time: 2000000100 ns
-run 1 s
-# KERNEL: stopped at time: 3000000100 ns
-acom -O3 -e 100 -work test -2002  $dsn/src/PC.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/PC.vhd
-# Compile Entity "PC"
-# Compile Architecture "Behavioral" of Entity "PC"
-# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
-endsim
-# VSIM: Simulation has finished.
-asim -O5 +access +r +m+processor processor structure
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# VSIM: Stack memory: 32MB
-# VSIM: Retval memory: 32MB
-# 
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 24322 kB (elbread=427 elab2=23755 kernel=139 sdf=0)
-# KERNEL: ASDB file was created in location C:\Users\Bash\Desktop\arch p2\p\arch\test\src\wave.asdb
-# Stimuli: Warning: The stimuli set "StimuliSet58" has been made inactive.
-#  12:38 ?, C???E?C?? 21 ????C? 2023
-#  Simulation has been initialized
-# Waveform file 'untitled.awc' connected to 'C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb'.
-# Breakpoint set on signal "/processor/reset".
-endsim
-# VSIM: Simulation has finished.
-acom -O3 -e 100 -work test -2002  $dsn/src/processor.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/processor.vhd
-# Compile Entity "processor"
-# Compile Architecture "structure" of Entity "processor"
-# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
-asim -O5 +access +r +m+processor processor structure
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# VSIM: Stack memory: 32MB
-# VSIM: Retval memory: 32MB
-# 
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 24322 kB (elbread=427 elab2=23755 kernel=139 sdf=0)
-# KERNEL: ASDB file was created in location C:\Users\Bash\Desktop\arch p2\p\arch\test\src\wave.asdb
-#  12:38 ?, C???E?C?? 21 ????C? 2023
-#  Simulation has been initialized
-# Waveform file 'untitled.awc' connected to 'C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb'.
-# Breakpoint set on signal "/processor/reset".
-# KERNEL: Warning: KERNEL_0291 Object "/processor/branchTargetT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/adder_in" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/addr32_pc_next" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/adder_out" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/pc_out" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/pc_in" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/busAT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/busBT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/busWT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/InstrT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/ExtOut" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUINB" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/MemMuxOut" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUOUT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/DMemOut" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUOPTemp" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/RegWrT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/EXTOPT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUSrcT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/MemRdT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/MemWrT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/WBdataT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUZeroT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/PCSrcT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/clk" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/reset" has already been traced.
-# VSIM: 0 object(s) traced.
-# Waveform file 'untitled.awc' connected to 'C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb'.
-run 1 s
-# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/IM_block,  Process: line__26.
-# KERNEL: Stopped at time 0 ps + 0.
-# Stopped at breakpoint on signal "/processor/reset" (Event condition).
-run 1 s
-# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /processor/ALU_block,  Process: line__18.
-# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-# KERNEL: Time: 0 ps,  Iteration: 3,  Instance: /processor/ALU_block,  Process: line__30.
-# KERNEL: Stopped at time 1 us + 0.
-# Stopped at breakpoint on signal "/processor/reset" (Event condition).
-run 1 s
-# KERNEL: stopped at time: 1000001 us
-endsim
-# VSIM: Simulation has finished.
-
-asim -O5 +access +r +m+processor processor structure
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# VSIM: Stack memory: 32MB
-# VSIM: Retval memory: 32MB
-# 
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 24322 kB (elbread=427 elab2=23755 kernel=139 sdf=0)
-# KERNEL: ASDB file was created in location C:\Users\Bash\Desktop\arch p2\p\arch\test\src\wave.asdb
-# Stimuli: Warning: The stimuli set "StimuliSet59" has been made inactive.
-#  12:40 ?, C???E?C?? 21 ????C? 2023
-#  Simulation has been initialized
-# Waveform file 'untitled.awc' connected to 'C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb'.
-# Breakpoint set on signal "/processor/reset".
-run 100 ns
-# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/IM_block,  Process: line__26.
-# KERNEL: Stopped at time 0 ps + 0.
-# Stopped at breakpoint on signal "/processor/reset" (Event condition).
-run 100 ns
-# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /processor/ALU_block,  Process: line__18.
-# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-# KERNEL: Time: 0 ps,  Iteration: 3,  Instance: /processor/ALU_block,  Process: line__30.
-# KERNEL: Stopped at time 20 ns + 0.
-# Stopped at breakpoint on signal "/processor/reset" (Event condition).
-run 100 ns
-# KERNEL: stopped at time: 120 ns
-run 100 ns
-# KERNEL: stopped at time: 220 ns
-endsim
-# VSIM: Simulation has finished.
-acom -O3 -e 100 -work test -2002  $dsn/src/test.vhd $dsn/src/PC.vhd $dsn/src/InstructionMemory.vhd $dsn/src/processor.vhd $dsn/src/Adder4.vhd $dsn/src/RegisterFile.vhd $dsn/src/ALU.vhd $dsn/src/ALUControl.vhd $dsn/src/DataMemory.vhd $dsn/src/MUX2x1.vhd $dsn/src/MainControl.vhd $dsn/src/Extender.vhd $dsn/src/MUX3x1.vhd $dsn/src/BranchAdder.vhd $dsn/src/PCControl.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/test.vhd
-# Compile Entity "testbench"
-# Compile Architecture "tb" of Entity "testbench"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/PC.vhd
-# Compile Entity "PC"
-# Compile Architecture "Behavioral" of Entity "PC"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/InstructionMemory.vhd
-# Compile Entity "Instruction_Memory"
-# Compile Architecture "Behav" of Entity "Instruction_Memory"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/processor.vhd
-# Compile Entity "processor"
-# Compile Architecture "structure" of Entity "processor"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/Adder4.vhd
-# Compile Entity "Adder4"
-# Compile Architecture "Behavioral" of Entity "Adder4"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/RegisterFile.vhd
-# Compile Entity "RegisterFile"
-# Compile Architecture "Behavioral" of Entity "RegisterFile"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/ALU.vhd
-# Compile Entity "ALU"
-# Compile Architecture "Behavioral" of Entity "ALU"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/ALUControl.vhd
-# Compile Entity "ALUControl"
-# Compile Architecture "Behavioral" of Entity "ALUControl"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/DataMemory.vhd
-# Compile Entity "DataMemory"
-# Compile Architecture "behav" of Entity "DataMemory"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/MUX2x1.vhd
-# Compile Entity "MUX2x1"
-# Compile Architecture "Behavioral" of Entity "MUX2x1"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/MainControl.vhd
-# Compile Entity "MainControl"
-# Compile Architecture "MainControl" of Entity "MainControl"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/Extender.vhd
-# Compile Entity "Extender"
-# Compile Architecture "Behavioral" of Entity "Extender"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/MUX3x1.vhd
-# Compile Entity "MUX3x1"
-# Compile Architecture "Behavioral" of Entity "MUX3x1"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/BranchAdder.vhd
-# Compile Entity "BranchAdder"
-# Compile Architecture "behavioral" of Entity "BranchAdder"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/PCControl.vhd
-# Compile Entity "PCControl"
-# Compile Architecture "Beh" of Entity "PCControl"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.7 [s]
-asim -O5 +access +r +m+processor processor structure
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# VSIM: Stack memory: 32MB
-# VSIM: Retval memory: 32MB
-# 
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 24322 kB (elbread=427 elab2=23755 kernel=139 sdf=0)
-# KERNEL: ASDB file was created in location C:\Users\Bash\Desktop\arch p2\p\arch\test\src\wave.asdb
-# Stimuli: Warning: The stimuli set "StimuliSet60" has been made inactive.
-#  12:45 ?, C???E?C?? 21 ????C? 2023
+#  10:36 ?, C???I? 16 E??? 2023
 #  Simulation has been initialized
 # Breakpoint set on signal "/processor/reset".
-# VSIM: 26 object(s) traced.
+# VSIM: 34 object(s) traced.
 # Waveform file 'untitled.awc' connected to 'C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb'.
-run 100 ns
-# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/IM_block,  Process: line__27.
-# KERNEL: Stopped at time 0 ps + 0.
-# Stopped at breakpoint on signal "/processor/reset" (Event condition).
-run 100 ns
-# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /processor/ALU_block,  Process: line__18.
-# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-# KERNEL: Time: 0 ps,  Iteration: 3,  Instance: /processor/ALU_block,  Process: line__30.
-# KERNEL: Stopped at time 20 ns + 0.
-# Stopped at breakpoint on signal "/processor/reset" (Event condition).
-run 100 ns
-# KERNEL: stopped at time: 120 ns
-run 100 ns
-# KERNEL: stopped at time: 220 ns
-run 100 ns
-# KERNEL: stopped at time: 320 ns
-run 100 ns
-# KERNEL: stopped at time: 420 ns
-run 100 ns
-# KERNEL: stopped at time: 520 ns
-run 100 ns
-# KERNEL: stopped at time: 620 ns
-run 100 ns
-# KERNEL: stopped at time: 720 ns
-run 100 ns
-# KERNEL: stopped at time: 820 ns
-run 100 ns
-# KERNEL: stopped at time: 920 ns
-run 100 ns
-# KERNEL: stopped at time: 1020 ns
-run 100 ns
-# KERNEL: stopped at time: 1120 ns
-endsim
-# VSIM: Simulation has finished.
-acom -O3 -e 100 -work test -2002  $dsn/src/InstructionMemory.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/InstructionMemory.vhd
-# Compile Entity "Instruction_Memory"
-# Compile Architecture "Behav" of Entity "Instruction_Memory"
-# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
-acom -O3 -e 100 -work test -2002  $dsn/src/test.vhd $dsn/src/PC.vhd $dsn/src/InstructionMemory.vhd $dsn/src/processor.vhd $dsn/src/Adder4.vhd $dsn/src/RegisterFile.vhd $dsn/src/ALU.vhd $dsn/src/ALUControl.vhd $dsn/src/DataMemory.vhd $dsn/src/MUX2x1.vhd $dsn/src/MainControl.vhd $dsn/src/Extender.vhd $dsn/src/MUX3x1.vhd $dsn/src/BranchAdder.vhd $dsn/src/PCControl.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/test.vhd
-# Compile Entity "testbench"
-# Compile Architecture "tb" of Entity "testbench"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/PC.vhd
-# Compile Entity "PC"
-# Compile Architecture "Behavioral" of Entity "PC"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/InstructionMemory.vhd
-# Compile Entity "Instruction_Memory"
-# Compile Architecture "Behav" of Entity "Instruction_Memory"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/processor.vhd
-# Compile Entity "processor"
-# Compile Architecture "structure" of Entity "processor"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/Adder4.vhd
-# Compile Entity "Adder4"
-# Compile Architecture "Behavioral" of Entity "Adder4"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/RegisterFile.vhd
-# Compile Entity "RegisterFile"
-# Compile Architecture "Behavioral" of Entity "RegisterFile"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/ALU.vhd
-# Compile Entity "ALU"
-# Compile Architecture "Behavioral" of Entity "ALU"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/ALUControl.vhd
-# Compile Entity "ALUControl"
-# Compile Architecture "Behavioral" of Entity "ALUControl"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/DataMemory.vhd
-# Compile Entity "DataMemory"
-# Compile Architecture "behav" of Entity "DataMemory"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/MUX2x1.vhd
-# Compile Entity "MUX2x1"
-# Compile Architecture "Behavioral" of Entity "MUX2x1"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/MainControl.vhd
-# Compile Entity "MainControl"
-# Compile Architecture "MainControl" of Entity "MainControl"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/Extender.vhd
-# Compile Entity "Extender"
-# Compile Architecture "Behavioral" of Entity "Extender"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/MUX3x1.vhd
-# Compile Entity "MUX3x1"
-# Compile Architecture "Behavioral" of Entity "MUX3x1"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/BranchAdder.vhd
-# Compile Entity "BranchAdder"
-# Compile Architecture "behavioral" of Entity "BranchAdder"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/PCControl.vhd
-# Compile Entity "PCControl"
-# Compile Architecture "Beh" of Entity "PCControl"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
-asim -O5 +access +r +m+processor processor structure
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# VSIM: Stack memory: 32MB
-# VSIM: Retval memory: 32MB
-# 
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 24322 kB (elbread=427 elab2=23755 kernel=139 sdf=0)
-# KERNEL: ASDB file was created in location C:\Users\Bash\Desktop\arch p2\p\arch\test\src\wave.asdb
-# Stimuli: Warning: The stimuli set "StimuliSet61" has been made inactive.
-#  12:50 ?, C???E?C?? 21 ????C? 2023
-#  Simulation has been initialized
-# Breakpoint set on signal "/processor/reset".
-endsim
-# VSIM: Simulation has finished.
-acom -O3 -e 100 -work test -2002  $dsn/src/test.vhd $dsn/src/PC.vhd $dsn/src/InstructionMemory.vhd $dsn/src/processor.vhd $dsn/src/Adder4.vhd $dsn/src/RegisterFile.vhd $dsn/src/ALU.vhd $dsn/src/ALUControl.vhd $dsn/src/DataMemory.vhd $dsn/src/MUX2x1.vhd $dsn/src/MainControl.vhd $dsn/src/Extender.vhd $dsn/src/MUX3x1.vhd $dsn/src/BranchAdder.vhd $dsn/src/PCControl.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/test.vhd
-# Compile Entity "testbench"
-# Compile Architecture "tb" of Entity "testbench"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/PC.vhd
-# Compile Entity "PC"
-# Compile Architecture "Behavioral" of Entity "PC"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/InstructionMemory.vhd
-# Compile Entity "Instruction_Memory"
-# Compile Architecture "Behav" of Entity "Instruction_Memory"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/processor.vhd
-# Compile Entity "processor"
-# Compile Architecture "structure" of Entity "processor"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/Adder4.vhd
-# Compile Entity "Adder4"
-# Compile Architecture "Behavioral" of Entity "Adder4"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/RegisterFile.vhd
-# Compile Entity "RegisterFile"
-# Compile Architecture "Behavioral" of Entity "RegisterFile"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/ALU.vhd
-# Compile Entity "ALU"
-# Compile Architecture "Behavioral" of Entity "ALU"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/ALUControl.vhd
-# Compile Entity "ALUControl"
-# Compile Architecture "Behavioral" of Entity "ALUControl"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/DataMemory.vhd
-# Compile Entity "DataMemory"
-# Compile Architecture "behav" of Entity "DataMemory"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/MUX2x1.vhd
-# Compile Entity "MUX2x1"
-# Compile Architecture "Behavioral" of Entity "MUX2x1"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/MainControl.vhd
-# Compile Entity "MainControl"
-# Compile Architecture "MainControl" of Entity "MainControl"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/Extender.vhd
-# Compile Entity "Extender"
-# Compile Architecture "Behavioral" of Entity "Extender"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/MUX3x1.vhd
-# Compile Entity "MUX3x1"
-# Compile Architecture "Behavioral" of Entity "MUX3x1"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/BranchAdder.vhd
-# Compile Entity "BranchAdder"
-# Compile Architecture "behavioral" of Entity "BranchAdder"
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/PCControl.vhd
-# Compile Entity "PCControl"
-# Compile Architecture "Beh" of Entity "PCControl"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
-asim -O5 +access +r +m+processor processor structure
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# VSIM: Stack memory: 32MB
-# VSIM: Retval memory: 32MB
-# 
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 24322 kB (elbread=427 elab2=23755 kernel=139 sdf=0)
-# KERNEL: ASDB file was created in location C:\Users\Bash\Desktop\arch p2\p\arch\test\src\wave.asdb
-#  12:51 ?, C???E?C?? 21 ????C? 2023
-#  Simulation has been initialized
-# Breakpoint set on signal "/processor/reset".
-# VSIM: 26 object(s) traced.
-# Waveform file 'untitled.awc' connected to 'C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb'.
-
-
-run 400 ns
-# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/IM_block,  Process: line__30.
-# KERNEL: Stopped at time 0 ps + 0.
-# Stopped at breakpoint on signal "/processor/reset" (Event condition).
-run 400 ns
-# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /processor/ALU_block,  Process: line__18.
-# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-# KERNEL: Time: 0 ps,  Iteration: 3,  Instance: /processor/ALU_block,  Process: line__30.
-# KERNEL: Stopped at time 10 ns + 0.
-# Stopped at breakpoint on signal "/processor/reset" (Event condition).
-run 400 ns
-# KERNEL: stopped at time: 410 ns
-acom -O3 -e 100 -work test -2002  $dsn/src/InstructionMemory.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/InstructionMemory.vhd
-# Compile Entity "Instruction_Memory"
-# Compile Architecture "Behav" of Entity "Instruction_Memory"
-# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
-# KERNEL: Warning: KERNEL_0291 Object "/processor/branchTargetT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/adder_in" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/addr32_pc_next" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/adder_out" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/pc_out" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/pc_in" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/busAT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/busBT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/busWT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/InstrT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/ExtOut" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUINB" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/MemMuxOut" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUOUT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/DMemOut" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUOPTemp" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/RegWrT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/EXTOPT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUSrcT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/MemRdT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/MemWrT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/WBdataT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUZeroT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/PCSrcT" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/clk" has already been traced.
-# KERNEL: Warning: KERNEL_0291 Object "/processor/reset" has already been traced.
-# VSIM: 0 object(s) traced.
-# Waveform file 'untitled.awc' connected to 'C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb'.
-endsim
-# VSIM: Simulation has finished.
-asim -O5 +access +r +m+processor processor structure
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# VSIM: Stack memory: 32MB
-# VSIM: Retval memory: 32MB
-# 
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 24322 kB (elbread=427 elab2=23755 kernel=139 sdf=0)
-# KERNEL: ASDB file was created in location C:\Users\Bash\Desktop\arch p2\p\arch\test\src\wave.asdb
-# Stimuli: Warning: The stimuli set "StimuliSet62" has been made inactive.
-#  12:53 ?, C???E?C?? 21 ????C? 2023
-#  Simulation has been initialized
-# Breakpoint set on signal "/processor/reset".
-# VSIM: 26 object(s) traced.
-# Waveform file 'untitled.awc' connected to 'C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb'.
-
 run 500 ns
 # KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/IM_block,  Process: line__30.
-# KERNEL: Stopped at time 0 ps + 0.
-# Stopped at breakpoint on signal "/processor/reset" (Event condition).
-run 500 ns
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/IM_block,  Process: line__35.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /processor/ALU_block,  Process: line__25.
 # KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /processor/ALU_block,  Process: line__18.
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /processor/ALU_block,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD."<": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 3,  Instance: /processor/ALU_block,  Process: line__25.
 # KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-# KERNEL: Time: 0 ps,  Iteration: 3,  Instance: /processor/ALU_block,  Process: line__30.
-# KERNEL: Stopped at time 10 ns + 0.
+# KERNEL: Time: 0 ps,  Iteration: 3,  Instance: /processor/ALU_block,  Process: line__70.
+# KERNEL: Stopped at time 10 ns + 1.
 # Stopped at breakpoint on signal "/processor/reset" (Event condition).
 run 500 ns
 # KERNEL: stopped at time: 510 ns
 endsim
 # VSIM: Simulation has finished.
-acom -O3 -e 100 -work test -2002  $dsn/src/InstructionMemory.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/InstructionMemory.vhd
-# Compile Entity "Instruction_Memory"
-# Compile Architecture "Behav" of Entity "Instruction_Memory"
-# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
 acom -O3 -e 100 -work test -2002  $dsn/src/processor.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
 # File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/processor.vhd
 # Compile Entity "processor"
 # Compile Architecture "structure" of Entity "processor"
-# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work test -2002  $dsn/src/InstructionMemory.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/InstructionMemory.vhd
+# Compile Entity "Instruction_Memory"
+# Compile Architecture "Behav" of Entity "Instruction_Memory"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
 asim -O5 +access +r +m+processor processor structure
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
 # VSIM: Stack memory: 32MB
 # VSIM: Retval memory: 32MB
 # 
-acom -O3 -e 100 -work test -2002  $dsn/src/PC.vhd
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.6 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 289291 kB (elbread=427 elab2=288723 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Bash\Desktop\arch p2\p\arch\test\src\wave.asdb
+#  10:39 ?, C???I? 16 E??? 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb'.
+# Breakpoint set on signal "/processor/reset".
+# KERNEL: Warning: KERNEL_0291 Object "/processor/branchTargetT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/adder_in" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/addr32_pc_next" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/adder_out" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/pc_out" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/pc_in" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/busAT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/busBT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/busWT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/InstrT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/ExtOut" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUINB" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUOUT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/DMemOut" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/topOfStack" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUOPTemp" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/SReg" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/SHFTCount" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/RegWrT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/EXTOPT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUSrcT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/MemRdT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/MemWrT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/WBdataT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUZeroT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/RegSrcT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/SHFTSrcT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/stackWrT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/stackRdT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/carryT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/negativeT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/PCSrcT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/reset" has already been traced.
+# VSIM: 0 object(s) traced.
+run 500 ns
+acom -O3 -e 100 -work test -2002  $dsn/src/InstructionMemory.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/InstructionMemory.vhd
+# Compile Entity "Instruction_Memory"
+# Compile Architecture "Behav" of Entity "Instruction_Memory"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.6 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 289291 kB (elbread=427 elab2=288723 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Bash\Desktop\arch p2\p\arch\test\src\wave.asdb
+#  10:39 ?, C???I? 16 E??? 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb'.
+# Breakpoint set on signal "/processor/reset".
+run 500 ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/IM_block,  Process: line__35.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /processor/ALU_block,  Process: line__25.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /processor/ALU_block,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD."<": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 3,  Instance: /processor/ALU_block,  Process: line__25.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 3,  Instance: /processor/ALU_block,  Process: line__70.
+# KERNEL: Stopped at time 10 ns + 1.
+# Stopped at breakpoint on signal "/processor/reset" (Event condition).
+run 500 ns
+# KERNEL: stopped at time: 510 ns
+run 500 ns
+# KERNEL: stopped at time: 1010 ns
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work test -2002  $dsn/src/PC.vhd $dsn/src/InstructionMemory.vhd $dsn/src/processor.vhd $dsn/src/Adder4.vhd $dsn/src/RegisterFile.vhd $dsn/src/ALU.vhd $dsn/src/ALUControl.vhd $dsn/src/DataMemory.vhd $dsn/src/MUX2x1.vhd $dsn/src/MainControl.vhd $dsn/src/Extender.vhd $dsn/src/MUX4x1.vhd $dsn/src/BranchAdder.vhd $dsn/src/PCControl.vhd $dsn/src/registerTest.vhd $dsn/src/MUX2x1Reg.vhd $dsn/src/ALU_tb.vhd $dsn/src/SP.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
 # File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/PC.vhd
 # Compile Entity "PC"
 # Compile Architecture "Behavioral" of Entity "PC"
-# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/InstructionMemory.vhd
+# Compile Entity "Instruction_Memory"
+# Compile Architecture "Behav" of Entity "Instruction_Memory"
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/processor.vhd
+# Compile Entity "processor"
+# Compile Architecture "structure" of Entity "processor"
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/Adder4.vhd
+# Compile Entity "Adder4"
+# Compile Architecture "Behavioral" of Entity "Adder4"
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/RegisterFile.vhd
+# Compile Entity "RegisterFile"
+# Compile Architecture "Behavioral" of Entity "RegisterFile"
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/ALU.vhd
+# Compile Entity "ALU"
+# Compile Architecture "Behavioral" of Entity "ALU"
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/ALUControl.vhd
+# Compile Entity "ALUControl"
+# Compile Architecture "Behavioral" of Entity "ALUControl"
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/DataMemory.vhd
+# Compile Entity "DataMemory"
+# Compile Architecture "behav" of Entity "DataMemory"
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/MUX2x1.vhd
+# Compile Entity "MUX2x1"
+# Compile Architecture "Behavioral" of Entity "MUX2x1"
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/MainControl.vhd
+# Compile Entity "MainControl"
+# Compile Architecture "MainControl" of Entity "MainControl"
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/Extender.vhd
+# Compile Entity "Extender"
+# Compile Architecture "Behavioral" of Entity "Extender"
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/MUX4x1.vhd
+# Compile Entity "MUX4x1"
+# Compile Architecture "Behavioral" of Entity "MUX4x1"
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/BranchAdder.vhd
+# Compile Entity "BranchAdder"
+# Compile Architecture "behavioral" of Entity "BranchAdder"
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/PCControl.vhd
+# Compile Entity "PCControl"
+# Compile Architecture "Beh" of Entity "PCControl"
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/registerTest.vhd
+# Compile Entity "RegisterFile_tb"
+# Compile Architecture "behavior" of Entity "RegisterFile_tb"
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/MUX2x1Reg.vhd
+# Compile Entity "MUX2x1Reg"
+# Compile Architecture "Behavioral" of Entity "MUX2x1Reg"
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/ALU_tb.vhd
+# Compile Entity "ALU_tb"
+# Compile Architecture "Behavior" of Entity "ALU_tb"
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/SP.vhd
+# Compile Entity "SP"
+# Compile Architecture "Behavioral" of Entity "SP"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.9 [s]
+asim -O5 +access +r +m+processor processor structure
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 289291 kB (elbread=427 elab2=288723 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Bash\Desktop\arch p2\p\arch\test\src\wave.asdb
+#  10:42 ?, C???I? 16 E??? 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb'.
+# Breakpoint set on signal "/processor/reset".
+# KERNEL: Warning: KERNEL_0291 Object "/processor/branchTargetT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/adder_in" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/addr32_pc_next" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/adder_out" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/pc_out" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/pc_in" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/busAT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/busBT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/busWT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/InstrT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/ExtOut" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUINB" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUOUT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/DMemOut" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/topOfStack" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUOPTemp" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/SReg" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/SHFTCount" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/RegWrT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/EXTOPT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUSrcT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/MemRdT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/MemWrT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/WBdataT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUZeroT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/RegSrcT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/SHFTSrcT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/stackWrT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/stackRdT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/carryT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/negativeT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/PCSrcT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/reset" has already been traced.
+# VSIM: 0 object(s) traced.
+run 500 ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/IM_block,  Process: line__35.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /processor/ALU_block,  Process: line__25.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /processor/ALU_block,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD."<": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 3,  Instance: /processor/ALU_block,  Process: line__25.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 3,  Instance: /processor/ALU_block,  Process: line__70.
+# KERNEL: Stopped at time 10 ns + 1.
+# Stopped at breakpoint on signal "/processor/reset" (Event condition).
+run 500 ns
+# KERNEL: stopped at time: 510 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+processor processor structure
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work test -2002  $dsn/src/InstructionMemory.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/InstructionMemory.vhd
+# Compile Entity "Instruction_Memory"
+# Compile Architecture "Behav" of Entity "Instruction_Memory"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
 # KERNEL: Main thread initiated.
@@ -1499,32 +332,202 @@ acom -O3 -e 100 -work test -2002  $dsn/src/PC.vhd
 # SLP: Elaboration phase ...
 # SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
 # SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# ELAB2: Elaboration final pass complete - time: 0.6 [s].
 # KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
 # KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
 # KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 24322 kB (elbread=427 elab2=23755 kernel=139 sdf=0)
+# Allocation: Simulator allocated 289291 kB (elbread=427 elab2=288723 kernel=140 sdf=0)
 # KERNEL: ASDB file was created in location C:\Users\Bash\Desktop\arch p2\p\arch\test\src\wave.asdb
-# Stimuli: Warning: The stimuli set "StimuliSet63" has been made inactive.
-#  10:32 ?, C???E?C?? 21 ????C? 2023
+#  10:47 ?, C???I? 16 E??? 2023
 #  Simulation has been initialized
-# Breakpoint set on signal "/processor/reset".
-# VSIM: 26 object(s) traced.
 # Waveform file 'untitled.awc' connected to 'C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb'.
+# Breakpoint set on signal "/processor/reset".
+# VSIM: 34 object(s) traced.
 run 500 ns
 # KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/IM_block,  Process: line__30.
-# KERNEL: Stopped at time 0 ps + 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/IM_block,  Process: line__35.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /processor/ALU_block,  Process: line__25.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /processor/ALU_block,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD."<": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 3,  Instance: /processor/ALU_block,  Process: line__25.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 3,  Instance: /processor/ALU_block,  Process: line__70.
+# KERNEL: Stopped at time 10 ns + 1.
 # Stopped at breakpoint on signal "/processor/reset" (Event condition).
 run 500 ns
-# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /processor/ALU_block,  Process: line__18.
-# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-# KERNEL: Time: 0 ps,  Iteration: 3,  Instance: /processor/ALU_block,  Process: line__30.
-# KERNEL: Stopped at time 20 ns + 0.
-# Stopped at breakpoint on signal "/processor/reset" (Event condition).
-run 500 ns
-# KERNEL: stopped at time: 520 ns
+# KERNEL: stopped at time: 510 ns
 endsim
 # VSIM: Simulation has finished.
+asim -O5 +access +r +m+processor processor structure
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work test -2002  $dsn/src/InstructionMemory.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/InstructionMemory.vhd
+# Compile Entity "Instruction_Memory"
+# Compile Architecture "Behav" of Entity "Instruction_Memory"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.6 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 289291 kB (elbread=427 elab2=288723 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Bash\Desktop\arch p2\p\arch\test\src\wave.asdb
+#  10:49 ?, C???I? 16 E??? 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb'.
+# Breakpoint set on signal "/processor/reset".
+# KERNEL: Warning: KERNEL_0291 Object "/processor/branchTargetT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/adder_in" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/addr32_pc_next" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/adder_out" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/pc_out" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/pc_in" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/busAT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/busBT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/busWT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/InstrT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/ExtOut" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUINB" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUOUT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/DMemOut" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/topOfStack" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUOPTemp" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/SReg" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/SHFTCount" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/RegWrT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/EXTOPT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUSrcT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/MemRdT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/MemWrT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/WBdataT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUZeroT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/RegSrcT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/SHFTSrcT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/stackWrT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/stackRdT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/carryT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/negativeT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/PCSrcT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/reset" has already been traced.
+# VSIM: 0 object(s) traced.
+run 500 ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/IM_block,  Process: line__35.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /processor/ALU_block,  Process: line__25.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /processor/ALU_block,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD."<": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 3,  Instance: /processor/ALU_block,  Process: line__25.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 3,  Instance: /processor/ALU_block,  Process: line__70.
+# KERNEL: Stopped at time 10 ns + 1.
+# Stopped at breakpoint on signal "/processor/reset" (Event condition).
+run 500 ns
+# KERNEL: stopped at time: 510 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+processor processor structure
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work test -2002  $dsn/src/InstructionMemory.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Bash/Desktop/arch p2/p/arch/test/src/InstructionMemory.vhd
+# Compile Entity "Instruction_Memory"
+# Compile Architecture "Behav" of Entity "Instruction_Memory"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.6 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 289291 kB (elbread=427 elab2=288723 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Bash\Desktop\arch p2\p\arch\test\src\wave.asdb
+#  11:07 ?, C???I? 16 E??? 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Bash/Desktop/arch p2/p/arch/test/src/wave.asdb'.
+# Breakpoint set on signal "/processor/reset".
+# KERNEL: Warning: KERNEL_0291 Object "/processor/branchTargetT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/adder_in" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/addr32_pc_next" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/adder_out" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/pc_out" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/pc_in" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/busAT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/busBT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/busWT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/InstrT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/ExtOut" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUINB" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUOUT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/DMemOut" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/topOfStack" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUOPTemp" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/SReg" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/SHFTCount" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/RegWrT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/EXTOPT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUSrcT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/MemRdT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/MemWrT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/WBdataT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/ALUZeroT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/RegSrcT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/SHFTSrcT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/stackWrT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/stackRdT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/carryT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/negativeT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/PCSrcT" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/clk" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/processor/reset" has already been traced.
+# VSIM: 0 object(s) traced.
+run 500 ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /processor/IM_block,  Process: line__35.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /processor/ALU_block,  Process: line__25.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /processor/ALU_block,  Process: line__25.
+# KERNEL: WARNING: NUMERIC_STD."<": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 3,  Instance: /processor/ALU_block,  Process: line__25.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 3,  Instance: /processor/ALU_block,  Process: line__70.
+# KERNEL: Stopped at time 10 ns + 1.
+# Stopped at breakpoint on signal "/processor/reset" (Event condition).
+run 500 ns
+# KERNEL: stopped at time: 510 ns
 # Breakpoint on signal "/processor/reset" cleared.
